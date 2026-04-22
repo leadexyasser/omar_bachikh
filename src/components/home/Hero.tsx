@@ -222,6 +222,13 @@ export default function Hero() {
         </motion.div>
       </div>
 
+      {/* Bottom wave */}
+      <div className="absolute bottom-0 left-0 right-0 overflow-hidden" aria-hidden="true">
+        <svg viewBox="0 0 1440 80" className="w-full fill-current text-white" preserveAspectRatio="none">
+          <path d="M0,0 C360,80 1080,80 1440,0 L1440,80 L0,80 Z" />
+        </svg>
+      </div>
+
       {/* Scroll indicator */}
       <motion.div
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
