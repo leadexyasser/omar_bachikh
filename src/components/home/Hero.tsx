@@ -58,7 +58,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20 grid lg:grid-cols-2 gap-12 items-center">
         {/* Left — text */}
         <div>
           {/* Badge */}
@@ -79,7 +79,7 @@ export default function Hero() {
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-6"
+            className="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-4 sm:mb-6"
           >
             {t('headline').split(' ').map((word, i, arr) =>
               i === arr.length - 1 ? (
@@ -136,6 +136,34 @@ export default function Hero() {
               <Phone className="w-5 h-5" />
               {t('cta2')}
             </a>
+          </motion.div>
+
+          {/* Mobile attorney trust strip — replaces the hidden photo panel */}
+          <motion.div
+            custom={5}
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            className="lg:hidden mt-6 flex items-center gap-3 p-3 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/15"
+          >
+            <div className="w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-gold-500/60">
+              <Image
+                src="/images/attorney-hero.jpg"
+                alt="Omar Bachikh"
+                width={48}
+                height={48}
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-white font-semibold text-sm leading-tight">Omar M. Bachikh, Esq., LLM</p>
+              <p className="text-gold-400 text-xs mt-0.5">AILA Member · 14+ Years · Orlando, FL</p>
+              <div className="flex gap-1 mt-1.5">
+                {['EN', 'AR', 'FR'].map((lang) => (
+                  <span key={lang} className="px-1.5 py-0.5 bg-white/20 rounded text-white text-[10px] font-semibold">{lang}</span>
+                ))}
+              </div>
+            </div>
           </motion.div>
         </div>
 
@@ -231,13 +259,13 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        animate={{ y: [0, 8, 0] }}
+        className="absolute bottom-24 sm:bottom-14 left-1/2 -translate-x-1/2 z-10"
+        animate={{ y: [0, 5, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         aria-hidden="true"
       >
-        <div className="flex flex-col items-center gap-2">
-          <span className="text-white/40 text-xs tracking-widest uppercase">Scroll</span>
+        <div className="flex flex-col items-center gap-1.5">
+          <span className="hidden sm:block text-white/40 text-xs tracking-widest uppercase">Scroll</span>
           <ChevronDown className="w-5 h-5 text-white/40" />
         </div>
       </motion.div>

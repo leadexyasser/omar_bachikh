@@ -73,8 +73,8 @@ export default function CommunitySection() {
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <div className="absolute inset-x-0 bottom-0 p-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-x-0 bottom-0 p-2 sm:translate-y-full sm:group-hover:translate-y-0 sm:transition-transform sm:duration-300">
                     <p className="text-white text-xs font-medium leading-tight">{photo.caption}</p>
                   </div>
                 </div>
@@ -107,8 +107,8 @@ export default function CommunitySection() {
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 640px) 50vw, 25vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <div className="absolute inset-x-0 bottom-0 p-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-x-0 bottom-0 p-2 sm:translate-y-full sm:group-hover:translate-y-0 sm:transition-transform sm:duration-300">
                     <p className="text-white text-xs font-medium leading-tight">{photo.caption}</p>
                   </div>
                 </div>

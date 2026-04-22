@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
             className="relative"
           >
             {/* Main card */}
-            <div className="bg-hero-gradient rounded-3xl p-10 text-white relative overflow-hidden">
+            <div className="bg-hero-gradient rounded-3xl p-6 sm:p-10 text-white relative overflow-hidden">
               {/* Background pattern */}
               <div className="absolute inset-0 opacity-[0.04]" aria-hidden="true">
                 <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -46,8 +46,8 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="relative z-10">
-                <div className="font-serif text-5xl font-bold text-gold-400 mb-1">14+</div>
-                <div className="text-gray-300 text-lg mb-8">Years of dedicated immigration practice</div>
+                <div className="font-serif text-4xl sm:text-5xl font-bold text-gold-400 mb-1">14+</div>
+                <div className="text-gray-300 text-base sm:text-lg mb-6 sm:mb-8">Years of dedicated immigration practice</div>
 
                 {/* Credential tags */}
                 <div className="space-y-3">

@@ -50,7 +50,7 @@ export default function Testimonials() {
 
         <div className="grid lg:grid-cols-5 gap-6">
           {/* Featured testimonial (large) */}
-          <div className="lg:col-span-3 relative">
+          <div className="col-span-full lg:col-span-3 relative">
             <AnimatePresence mode="wait">
               <motion.div
                 key={current}
@@ -126,8 +126,8 @@ export default function Testimonials() {
             </div>
           </div>
 
-          {/* Side testimonials */}
-          <div className="lg:col-span-2 flex flex-col gap-4">
+          {/* Side testimonials — desktop only */}
+          <div className="hidden lg:flex lg:col-span-2 flex-col gap-4">
             {testimonialKeys.map((key, i) => (
               <motion.button
                 key={key}

@@ -152,11 +152,11 @@ export default function Header() {
               <div className="w-10 h-10 rounded-lg overflow-hidden shrink-0 shadow-md">
                 <Image src="/images/logo.jpg" alt="Law Office of Omar Bachikh" width={40} height={40} className="w-full h-full object-cover" />
               </div>
-              <div className="hidden sm:block">
-                <div className="font-serif text-base font-bold text-navy-900 leading-tight">
+              <div>
+                <div className="font-serif text-sm sm:text-base font-bold text-navy-900 leading-tight">
                   Omar Bachikh
                 </div>
-                <div className="text-xs text-gray-500 font-medium tracking-wide">
+                <div className="hidden sm:block text-xs text-gray-500 font-medium tracking-wide">
                   Immigration Attorney
                 </div>
               </div>
