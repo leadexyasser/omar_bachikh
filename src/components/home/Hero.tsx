@@ -235,12 +235,6 @@ export default function Hero() {
         </div>
       </motion.div>
 
-      {/* Bottom wave */}
-      <div className="absolute bottom-0 left-0 right-0 overflow-hidden" aria-hidden="true">
-        <svg viewBox="0 0 1440 80" className="w-full fill-current text-white" preserveAspectRatio="none">
-          <path d="M0,80 C360,20 1080,20 1440,80 L1440,80 L0,80 Z" />
-        </svg>
-      </div>
     </section>
   );
 }
