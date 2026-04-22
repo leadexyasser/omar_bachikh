@@ -85,6 +85,11 @@ export default function Header() {
     setMobileOpen(false);
   }, [pathname]);
 
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [mobileOpen]);
+
   const switchLocale = (newLocale: string) => {
     const segments = pathname.split('/');
     segments[1] = newLocale;
@@ -93,6 +98,11 @@ export default function Header() {
 
   const localePath = (path: string) => `/${locale}${path}`;
   const currentLang = LOCALES.find(l => l.code === locale);
+
+  const isActive = (href: string) => {
+    const full = localePath(href);
+    return pathname === full || pathname.startsWith(full + '/');
+  };
 
   const navLinks = [
     { href: '/about', label: t('about') },
@@ -132,7 +142,7 @@ export default function Header() {
         )}
       >
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
-          <div className="flex items-center justify-between h-16 lg:h-18">
+          <div className="flex items-center justify-between h-16 lg:h-[4.5rem]">
             {/* Logo */}
             <Link
               href={localePath('/')}
@@ -154,14 +164,18 @@ export default function Header() {
 
             {/* Desktop nav */}
             <div className="hidden lg:flex items-center gap-1" dir={isRtl ? 'rtl' : 'ltr'}>
-              <Link href={localePath('/about')} className="nav-link px-3 py-2 rounded-md hover:bg-gray-50">
+              <Link
+                href={localePath('/about')}
+                className={cn('nav-link px-3 py-2 rounded-md hover:bg-gray-50', isActive('/about') && 'text-navy-900 bg-gray-50 font-semibold')}
+                aria-current={isActive('/about') ? 'page' : undefined}
+              >
                 {t('about')}
               </Link>
 
               {/* Practice Areas dropdown */}
               <div className="relative" ref={dropdownRef}>
                 <button
-                  className="nav-link px-3 py-2 rounded-md hover:bg-gray-50 flex items-center gap-1"
+                  className={cn('nav-link px-3 py-2 rounded-md hover:bg-gray-50 flex items-center gap-1', isActive('/practice-areas') && 'text-navy-900 bg-gray-50 font-semibold')}
                   onMouseEnter={() => setPracticeDropdown(true)}
                   onMouseLeave={() => setPracticeDropdown(false)}
                   onClick={() => setPracticeDropdown(!practiceDropdown)}
@@ -209,16 +223,16 @@ export default function Header() {
                 </AnimatePresence>
               </div>
 
-              <Link href={localePath('/blog')} className="nav-link px-3 py-2 rounded-md hover:bg-gray-50">
+              <Link href={localePath('/blog')} className={cn('nav-link px-3 py-2 rounded-md hover:bg-gray-50', isActive('/blog') && 'text-navy-900 bg-gray-50 font-semibold')} aria-current={isActive('/blog') ? 'page' : undefined}>
                 {t('blog')}
               </Link>
-              <Link href={localePath('/results')} className="nav-link px-3 py-2 rounded-md hover:bg-gray-50">
+              <Link href={localePath('/results')} className={cn('nav-link px-3 py-2 rounded-md hover:bg-gray-50', isActive('/results') && 'text-navy-900 bg-gray-50 font-semibold')} aria-current={isActive('/results') ? 'page' : undefined}>
                 {t('results')}
               </Link>
-              <Link href={localePath('/faq')} className="nav-link px-3 py-2 rounded-md hover:bg-gray-50">
+              <Link href={localePath('/faq')} className={cn('nav-link px-3 py-2 rounded-md hover:bg-gray-50', isActive('/faq') && 'text-navy-900 bg-gray-50 font-semibold')} aria-current={isActive('/faq') ? 'page' : undefined}>
                 {t('faq')}
               </Link>
-              <Link href={localePath('/contact')} className="nav-link px-3 py-2 rounded-md hover:bg-gray-50">
+              <Link href={localePath('/contact')} className={cn('nav-link px-3 py-2 rounded-md hover:bg-gray-50', isActive('/contact') && 'text-navy-900 bg-gray-50 font-semibold')} aria-current={isActive('/contact') ? 'page' : undefined}>
                 {t('contact')}
               </Link>
             </div>

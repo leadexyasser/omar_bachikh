@@ -103,14 +103,17 @@ export default function Testimonials() {
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
-              <div className="flex gap-2">
+              <div className="flex gap-1 items-center">
                 {testimonialKeys.map((_, i) => (
                   <button
                     key={i}
                     onClick={() => setCurrent(i)}
-                    className={`w-2 h-2 rounded-full transition-all duration-200 ${i === current ? 'w-8 bg-navy-900' : 'bg-gray-300 hover:bg-gray-400'}`}
                     aria-label={`Go to testimonial ${i + 1}`}
-                  />
+                    aria-current={i === current ? 'true' : undefined}
+                    className="py-5 px-1 cursor-pointer flex items-center"
+                  >
+                    <span className={`block rounded-full transition-all duration-200 ${i === current ? 'w-8 h-2 bg-navy-900' : 'w-2 h-2 bg-gray-300 hover:bg-gray-400'}`} />
+                  </button>
                 ))}
               </div>
               <button

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display } from 'next/font/google';
+import { Inter, Playfair_Display, Noto_Kufi_Arabic } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import Header from '@/components/layout/Header';
@@ -16,6 +16,13 @@ const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
   display: 'swap',
+});
+
+const notoKufi = Noto_Kufi_Arabic({
+  subsets: ['arabic'],
+  variable: '--font-noto-kufi',
+  display: 'swap',
+  weight: ['400', '500', '600', '700'],
 });
 
 const locales = ['en', 'ar', 'fr'];
@@ -49,7 +56,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
     <html
       lang={locale}
       dir={isRtl ? 'rtl' : 'ltr'}
-      className={`${inter.variable} ${playfair.variable}`}
+      className={`${inter.variable} ${playfair.variable} ${notoKufi.variable}`}
     >
       <head>
         <meta name="theme-color" content="#0A2240" />

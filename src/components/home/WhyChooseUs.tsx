@@ -3,7 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowRight, Clock, User, Globe, MessageSquare, Target, Heart } from 'lucide-react';
+import { ArrowRight, Clock, User, Globe, MessageSquare, Target, Heart, Scale, GraduationCap, Award, MapPin } from 'lucide-react';
 
 const items = [
   { key: 'item1', icon: Clock },
@@ -52,14 +52,15 @@ export default function WhyChooseUs() {
                 {/* Credential tags */}
                 <div className="space-y-3">
                   {[
-                    '✅ AILA Member Attorney',
-                    '🎓 LLM — University of Paris VIII',
-                    '🏆 Client Champion Award 2021',
-                    '🌐 English · Arabic · French',
-                    '📍 Orlando, Florida',
-                  ].map((item) => (
-                    <div key={item} className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5 text-sm">
-                      <span>{item}</span>
+                    { Icon: Scale, text: 'AILA Member Attorney' },
+                    { Icon: GraduationCap, text: 'LLM — University of Paris VIII' },
+                    { Icon: Award, text: 'Client Champion Award 2021' },
+                    { Icon: Globe, text: 'English · Arabic · French' },
+                    { Icon: MapPin, text: 'Orlando, Florida' },
+                  ].map(({ Icon, text }) => (
+                    <div key={text} className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5 text-sm">
+                      <Icon className="w-4 h-4 text-gold-400 shrink-0" />
+                      <span>{text}</span>
                     </div>
                   ))}
                 </div>
@@ -78,7 +79,7 @@ export default function WhyChooseUs() {
             <motion.div
               animate={{ y: [-3, 3, -3] }}
               transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
-              className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-card-hover p-4 max-w-[220px] border border-gray-100"
+              className="hidden sm:block absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-card-hover p-4 max-w-[220px] border border-gray-100"
             >
               <div className="flex gap-0.5 mb-2">
                 {[...Array(5)].map((_, i) => (

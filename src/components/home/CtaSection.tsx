@@ -3,7 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowRight, Phone, ClipboardList } from 'lucide-react';
+import { ArrowRight, Phone, ClipboardList, Calendar } from 'lucide-react';
 
 export default function CtaSection() {
   const t = useTranslations('cta');
@@ -34,7 +34,7 @@ export default function CtaSection() {
           transition={{ duration: 0.5 }}
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-gold-500/15 border border-gold-500/30 rounded-full text-gold-300 text-sm font-medium mb-6">
-            <span>🗓️</span> Schedule Today — No Obligation
+            <Calendar className="w-4 h-4" /> Schedule Your Consultation Today
           </div>
 
           <h2 className="font-serif text-4xl sm:text-5xl font-bold text-white mb-5">
