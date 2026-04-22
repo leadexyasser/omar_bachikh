@@ -1,0 +1,569 @@
+{
+  "meta": {
+    "siteName": "Law Office of Omar Bachikh",
+    "siteDescription": "Experienced immigration attorney in Orlando, Florida. Helping families, workers, and individuals navigate the U.S. immigration system for over 14 years."
+  },
+  "nav": {
+    "about": "About",
+    "practiceAreas": "Practice Areas",
+    "resources": "Resources",
+    "blog": "Blog & News",
+    "contact": "Contact",
+    "freeConsultation": "Book a Consultation",
+    "phone": "(484) 640-8347",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language",
+    "allPracticeAreas": "All Practice Areas",
+    "results": "Case Results",
+    "testimonials": "Testimonials",
+    "fees": "Fees & Process",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "14+ Years of Immigration Experience",
+    "headline": "Protecting Your American Dream",
+    "subheadline": "Compassionate, results-driven immigration representation for families, workers, and individuals across Florida and nationwide.",
+    "cta1": "Start Your Case Review",
+    "cta2": "Call Now",
+    "trustLine": "AILA Member · LLM · Client Champion 2021 · Orlando, Florida",
+    "stat1Value": "500+",
+    "stat1Label": "Cases Resolved",
+    "stat2Value": "14+",
+    "stat2Label": "Years Experience",
+    "stat3Value": "98%",
+    "stat3Label": "Client Satisfaction",
+    "stat4Value": "3",
+    "stat4Label": "Languages Spoken"
+  },
+  "trustBadges": {
+    "title": "Trusted by Hundreds of Families",
+    "aila": "AILA Member",
+    "ailaDesc": "American Immigration Lawyers Association",
+    "llm": "LLM Degree",
+    "llmDesc": "University of Paris VIII",
+    "champion": "Client Champion",
+    "championDesc": "Award Recipient 2021",
+    "florida": "Florida Licensed",
+    "floridaDesc": "State Bar of Florida",
+    "arabic": "Arabic Speaking",
+    "arabicDesc": "Serving Arab Communities",
+    "french": "French Speaking",
+    "frenchDesc": "Multilingual Representation"
+  },
+  "practiceAreas": {
+    "title": "Immigration Services",
+    "subtitle": "Comprehensive legal representation across all areas of U.S. immigration law",
+    "viewAll": "View All Practice Areas",
+    "learnMore": "Learn More",
+    "familyBased": {
+      "title": "Family-Based Immigration",
+      "desc": "Reunite with your loved ones. We handle petitions for immediate relatives, family preference categories, and adjustment of status."
+    },
+    "marriageGreenCard": {
+      "title": "Marriage Green Cards",
+      "desc": "Helping couples navigate the I-130, I-485, and consular processing for spousal and fiancé(e) visas."
+    },
+    "citizenship": {
+      "title": "Citizenship & Naturalization",
+      "desc": "Guiding permanent residents through the naturalization process to achieve U.S. citizenship."
+    },
+    "asylum": {
+      "title": "Asylum & Refugee",
+      "desc": "Protecting those fleeing persecution. We represent asylum seekers before USCIS and the immigration courts."
+    },
+    "workVisas": {
+      "title": "Work Visas",
+      "desc": "H-1B, L-1, O-1, TN, and other employment-based visas for professionals and skilled workers."
+    },
+    "studentVisas": {
+      "title": "Student Visas",
+      "desc": "F-1, J-1, and M-1 visas for international students pursuing academic and vocational programs in the U.S."
+    },
+    "deportationDefense": {
+      "title": "Deportation Defense",
+      "desc": "Aggressive representation in removal proceedings. We fight to keep you and your family in the United States."
+    },
+    "daca": {
+      "title": "DACA & Dreamers",
+      "desc": "Initial applications, renewals, and advance parole for Deferred Action for Childhood Arrivals recipients."
+    },
+    "appeals": {
+      "title": "Appeals & Waivers",
+      "desc": "Challenging denials and unfavorable decisions before the BIA, federal courts, and through waiver applications."
+    }
+  },
+  "stats": {
+    "title": "Our Track Record Speaks",
+    "subtitle": "Numbers that reflect our commitment to every client's success",
+    "cases": "Cases Successfully Resolved",
+    "years": "Years Serving Florida",
+    "satisfaction": "Client Satisfaction Rate",
+    "languages": "Languages Served"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Real stories from families and individuals we have helped",
+    "viewAll": "Read All Testimonials",
+    "t1": {
+      "name": "Fatima A.",
+      "origin": "Morocco → Orlando, FL",
+      "text": "Attorney Bachikh handled my green card case with incredible care and professionalism. He was always available to answer my questions and made a very stressful process feel manageable. I am now a permanent resident thanks to him!"
+    },
+    "t2": {
+      "name": "Carlos M.",
+      "origin": "Mexico → Central Florida",
+      "text": "I was facing deportation and felt hopeless. Omar fought hard for my case and we won! He is not just a lawyer, he truly cares about his clients. I highly recommend him to anyone dealing with immigration issues."
+    },
+    "t3": {
+      "name": "Aisha B.",
+      "origin": "Egypt → Florida",
+      "text": "From the initial consultation to the approval notice, the process was smooth and transparent. Mr. Bachikh guided us through every step of my husband's naturalization. We are forever grateful!"
+    },
+    "t4": {
+      "name": "Jean-Pierre L.",
+      "origin": "Cameroon → Orlando, FL",
+      "text": "I needed help with my asylum case. Omar was knowledgeable, compassionate, and strategic. He prepared me thoroughly for my interview. I was granted asylum and finally feel safe. Thank you from the bottom of my heart."
+    },
+    "t5": {
+      "name": "Yusuf H.",
+      "origin": "Somalia → Florida",
+      "text": "Excellent service! The office communicated in Arabic which made everything so much easier for me. My case was handled professionally and I received my green card without any issues."
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose Our Firm",
+    "subtitle": "Experience, dedication, and results—these are the hallmarks of our representation",
+    "item1Title": "14+ Years of Experience",
+    "item1Desc": "With over a decade of focused immigration practice, we have the knowledge and strategy to handle even the most complex cases.",
+    "item2Title": "Personalized Attention",
+    "item2Desc": "Every client receives direct access to Attorney Bachikh, not a paralegal. Your case gets the individual attention it deserves.",
+    "item3Title": "Multilingual Service",
+    "item3Desc": "We serve clients in English, Arabic, and French—ensuring you can communicate fully about your case without barriers.",
+    "item4Title": "Transparent Communication",
+    "item4Desc": "We keep you informed at every step. No surprises, no hidden fees. Just honest, clear communication throughout your case.",
+    "item5Title": "Strategic Representation",
+    "item5Desc": "We approach every case with the rigor and preparation it deserves, building the strongest possible argument on your behalf.",
+    "item6Title": "Community Focused",
+    "item6Desc": "Deeply embedded in the Central Florida immigrant community, we understand the unique challenges our clients face."
+  },
+  "blog": {
+    "title": "Immigration Law Insights",
+    "subtitle": "Stay informed with the latest news, updates, and guidance from our office",
+    "readMore": "Read Article",
+    "viewAll": "View All Articles",
+    "post1Title": "2024 Immigration Policy Updates: What You Need to Know",
+    "post1Excerpt": "A comprehensive overview of the most important changes to U.S. immigration policy and how they may affect your case.",
+    "post1Date": "November 15, 2024",
+    "post2Title": "The Complete Guide to the Marriage Green Card Process",
+    "post2Excerpt": "From filing the I-130 to your interview, here is everything you need to know about obtaining a green card through marriage.",
+    "post2Date": "October 28, 2024",
+    "post3Title": "DACA Renewal: Deadlines, Requirements, and What to Expect",
+    "post3Excerpt": "Timely guidance for current DACA recipients on the renewal process, documentation required, and common pitfalls to avoid.",
+    "post3Date": "October 10, 2024",
+    "post4Title": "Asylum in the U.S.: Eligibility, Process, and Your Rights",
+    "post4Excerpt": "Understanding the affirmative and defensive asylum processes, including what evidence strengthens your claim.",
+    "post4Date": "September 22, 2024"
+  },
+  "cta": {
+    "title": "Ready to Take the Next Step?",
+    "subtitle": "Your immigration journey starts with a conversation. Schedule your consultation today and let us help you navigate the path forward.",
+    "button": "Get Your Case Review",
+    "phone": "Or call us: (484) 640-8347",
+    "quiz": "Not sure where to start? Take our Visa Eligibility Quiz"
+  },
+  "about": {
+    "pageTitle": "About Attorney Omar Bachikh",
+    "pageSubtitle": "Your trusted immigration advocate in Central Florida",
+    "badgeText": "14+ Years Serving the Community",
+    "heroHeadline": "Experienced. Compassionate. Results-Driven.",
+    "heroText": "Omar M. Bachikh is a dedicated immigration attorney with over 14 years of experience helping individuals and families navigate the complexities of U.S. immigration law. Based in Orlando, Florida, he has built a reputation for personalized service, strategic representation, and genuine care for every client.",
+    "bio": {
+      "title": "Attorney Omar M. Bachikh, Esq., LLM",
+      "credential1": "LLM, University of Paris VIII",
+      "credential2": "Florida Bar Association Member",
+      "credential3": "American Immigration Lawyers Association (AILA)",
+      "credential4": "Client Champion Award Recipient, 2021",
+      "p1": "Born with a deep understanding of the immigrant experience, Attorney Bachikh brings both legal expertise and personal empathy to every case. His multilingual capabilities—English, Arabic, and French—allow him to serve a diverse clientele spanning the Arab world, North Africa, francophone communities, and beyond.",
+      "p2": "After completing his LLM at the prestigious University of Paris VIII, Omar dedicated his career to immigration law, recognizing the profound impact legal representation has on families' lives. He founded the Law Office of Omar Bachikh, LLC to provide high-quality, accessible immigration services to the Central Florida community.",
+      "p3": "Attorney Bachikh is known for his thoroughness, his direct communication style, and his unwavering commitment to achieving the best possible outcome for each client. He handles every case personally, ensuring that you always have access to the attorney who knows your case best.",
+      "philosophy": "\"Immigration law is not just about paperwork—it is about people's lives, their families, and their futures. Every client deserves an attorney who fights as hard for them as they would fight for a family member.\""
+    },
+    "credentials": {
+      "title": "Education & Credentials",
+      "education": "Education",
+      "llm": "LLM — University of Paris VIII",
+      "jd": "Juris Doctor — Law",
+      "admissions": "Bar Admissions",
+      "florida": "State Bar of Florida",
+      "memberships": "Professional Memberships",
+      "aila": "American Immigration Lawyers Association (AILA)",
+      "awards": "Awards & Recognition",
+      "champion": "Client Champion Award — 2021",
+      "languages": "Languages",
+      "english": "English",
+      "arabic": "Arabic",
+      "french": "French"
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "p1": "At the Law Office of Omar Bachikh, LLC, we believe that every immigrant deserves compassionate, high-quality legal representation regardless of their background or the complexity of their case.",
+      "p2": "We take the time to understand each client's unique situation, fears, and goals. We explain every step of the process clearly and keep clients informed throughout. We fight with the same dedication for every client—whether they are seeking a family reunion visa or defending against deportation.",
+      "p3": "Our multilingual practice ensures that language barriers never stand between a client and the legal help they need. We are proud to serve the diverse immigrant communities of Central Florida and beyond."
+    },
+    "office": {
+      "title": "Visit Our Office",
+      "address": "6000 Turkey Lake Rd. Suite 201",
+      "city": "Orlando, Florida 32819",
+      "phone": "(484) 640-8347",
+      "hours": "Office Hours",
+      "monFri": "Monday – Friday: 9:00 AM – 6:00 PM",
+      "sat": "Saturday: By Appointment",
+      "sun": "Sunday: Closed"
+    }
+  },
+  "quiz": {
+    "title": "Visa Eligibility Quiz",
+    "subtitle": "Answer a few questions to discover which immigration options may be right for you.",
+    "startButton": "Start the Quiz",
+    "nextButton": "Next Question",
+    "backButton": "Back",
+    "submitButton": "Get My Results",
+    "progressLabel": "Question {current} of {total}",
+    "restartButton": "Start Over",
+    "bookConsultation": "Book a Consultation",
+    "resultTitle": "Your Personalized Immigration Roadmap",
+    "resultSubtitle": "Based on your answers, here is what we recommend:",
+    "urgentNotice": "Important: Based on your situation, time may be critical. Please contact us immediately.",
+    "disclaimer": "This quiz is for informational purposes only and does not constitute legal advice. Please schedule a consultation with Attorney Bachikh for personalized guidance.",
+    "q1": {
+      "question": "What brings you here today?",
+      "a": "I want a green card (permanent residence)",
+      "b": "I want to become a U.S. citizen",
+      "c": "I need a work visa",
+      "d": "I am seeking asylum or protection",
+      "e": "I am facing deportation or removal",
+      "f": "I need a student visa",
+      "g": "Other immigration matter"
+    },
+    "q2_greencard": {
+      "question": "Do you have a U.S. citizen or permanent resident family member?",
+      "a": "Yes — spouse who is a U.S. citizen",
+      "b": "Yes — parent, child, or sibling who is a U.S. citizen",
+      "c": "Yes — family member who is a permanent resident",
+      "d": "No — I have a job offer or employer sponsor",
+      "e": "No — neither family nor employer"
+    },
+    "q2_citizenship": {
+      "question": "Are you currently a U.S. permanent resident (green card holder)?",
+      "a": "Yes — for 5 or more years",
+      "b": "Yes — for 3 years, married to a U.S. citizen",
+      "c": "Yes — for less than 3 years",
+      "d": "No — I am not yet a permanent resident"
+    },
+    "q2_work": {
+      "question": "What best describes your work situation?",
+      "a": "I have a U.S. employer who wants to sponsor me",
+      "b": "I have extraordinary ability in my field (arts, sports, science, business)",
+      "c": "I am being transferred by my multinational company",
+      "d": "I am a treaty investor or entrepreneur",
+      "e": "Other employment situation"
+    },
+    "q2_asylum": {
+      "question": "When did you last enter the United States?",
+      "a": "Less than 1 year ago",
+      "b": "More than 1 year ago",
+      "c": "I have not entered the U.S. yet",
+      "d": "I am currently outside the U.S."
+    },
+    "q2_deportation": {
+      "question": "What is your current situation?",
+      "a": "I have received a Notice to Appear (NTA) in immigration court",
+      "b": "I have a final order of removal",
+      "c": "I was detained by ICE",
+      "d": "I received a denial or Notice of Intent to Deny",
+      "e": "I want to appeal a court decision"
+    },
+    "q3": {
+      "question": "Are you currently inside the United States?",
+      "a": "Yes — I am in the U.S. legally",
+      "b": "Yes — but my status has expired or is irregular",
+      "c": "No — I am outside the U.S.",
+      "d": "No — but I am a U.S. national or national of a visa waiver country"
+    },
+    "q4": {
+      "question": "Have you ever had any of the following?",
+      "a": "A visa denial",
+      "b": "A prior deportation or removal",
+      "c": "A criminal conviction",
+      "d": "A prior immigration court appearance",
+      "e": "None of the above"
+    },
+    "q5": {
+      "question": "What is your current immigration status in the U.S.?",
+      "a": "No current status (undocumented)",
+      "b": "Valid visa (tourist, student, work, etc.)",
+      "c": "Pending application or case",
+      "d": "Temporary Protected Status (TPS)",
+      "e": "DACA recipient",
+      "f": "I am a U.S. citizen"
+    },
+    "results": {
+      "familyGreenCard": {
+        "title": "Family-Based Green Card",
+        "desc": "Based on your answers, you may be eligible for a family-based green card. The process typically involves an I-130 petition, followed by adjustment of status (if in the U.S.) or consular processing. Attorney Bachikh can guide you through every step.",
+        "action": "Schedule a consultation to begin your petition →"
+      },
+      "marriageGreenCard": {
+        "title": "Spousal Green Card / Marriage Visa",
+        "desc": "As the spouse of a U.S. citizen, you may qualify for an immediate relative green card—one of the fastest paths to permanent residence. We will prepare and file your case with precision.",
+        "action": "Start your marriage green card process →"
+      },
+      "citizenship": {
+        "title": "Naturalization — U.S. Citizenship",
+        "desc": "You may be ready to apply for U.S. citizenship. The process includes Form N-400, a biometrics appointment, an English/civics test, and an oath ceremony. We will make sure your application is perfect.",
+        "action": "Begin your citizenship journey →"
+      },
+      "workVisa": {
+        "title": "Employment-Based Visa",
+        "desc": "You may qualify for an H-1B, L-1, O-1, or other work visa. Each visa has specific requirements. Attorney Bachikh will assess your qualifications and recommend the strongest path forward.",
+        "action": "Explore your work visa options →"
+      },
+      "asylum": {
+        "title": "Asylum Application",
+        "desc": "If you are fleeing persecution, you may be eligible for asylum. Time limits apply—you generally must apply within 1 year of entering the U.S. Don't wait. Contact us today.",
+        "action": "Get urgent help with your asylum case →",
+        "urgent": true
+      },
+      "deportationDefense": {
+        "title": "Deportation Defense",
+        "desc": "Your situation requires immediate legal attention. Attorney Bachikh has extensive experience representing clients in removal proceedings. The sooner we act, the more options are available to you.",
+        "action": "Get emergency representation now →",
+        "urgent": true
+      },
+      "studentVisa": {
+        "title": "Student Visa (F-1 / J-1)",
+        "desc": "International students pursuing academic programs in the U.S. need an F-1 visa. We can help you with the application process, maintaining status, OPT, and other student visa matters.",
+        "action": "Get help with your student visa →"
+      },
+      "general": {
+        "title": "Let's Discuss Your Options",
+        "desc": "Your situation may involve multiple pathways or require a detailed case analysis. Attorney Bachikh offers consultations to review your specific circumstances and identify the best strategy.",
+        "action": "Schedule a consultation →"
+      }
+    }
+  },
+  "consultation": {
+    "pageTitle": "Schedule a Consultation",
+    "pageSubtitle": "Take the first step toward resolving your immigration matter",
+    "formTitle": "Request a Case Evaluation",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "country": "Country of Origin",
+    "status": "Current Immigration Status",
+    "statusOptions": {
+      "undocumented": "No current status",
+      "visa": "Valid visa",
+      "lpr": "Permanent Resident",
+      "citizen": "U.S. Citizen",
+      "pending": "Pending application",
+      "other": "Other"
+    },
+    "service": "What do you need help with?",
+    "message": "Briefly describe your situation",
+    "language": "Preferred Language",
+    "submit": "Book a Consultation",
+    "submitting": "Sending...",
+    "successTitle": "Request Received!",
+    "successMsg": "Thank you. We will contact you within 24 hours to confirm your consultation time.",
+    "infoTitle": "What to Expect",
+    "info1": "Consultation with Attorney Bachikh (fee applies)",
+    "info2": "Complete confidentiality — all communications are protected",
+    "info3": "Available in English, Arabic, or French",
+    "info4": "Transparent fees — all costs discussed upfront",
+    "urgentTitle": "Need Immediate Help?",
+    "urgentText": "If you are in removal proceedings or facing an urgent immigration emergency, please call us directly.",
+    "urgentCall": "Call (484) 640-8347"
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "We are here to help. Reach out to our office today.",
+    "address": "Address",
+    "addressValue": "6000 Turkey Lake Rd. Suite 201, Orlando, Florida 32819",
+    "phone": "Phone",
+    "phoneValue": "(484) 640-8347",
+    "email": "Email",
+    "emailValue": "info@bachikhlaw.com",
+    "hours": "Office Hours",
+    "monFri": "Monday – Friday: 9:00 AM – 6:00 PM",
+    "sat": "Saturday: By Appointment",
+    "social": "Follow Us",
+    "formTitle": "Send Us a Message",
+    "name": "Your Name",
+    "emailLabel": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send Message",
+    "mapTitle": "Find Our Office"
+  },
+  "faq": {
+    "pageTitle": "Frequently Asked Questions",
+    "pageSubtitle": "Answers to the most common immigration questions",
+    "categories": {
+      "general": "General",
+      "greenCard": "Green Cards",
+      "citizenship": "Citizenship",
+      "asylum": "Asylum",
+      "deportation": "Deportation",
+      "fees": "Fees & Process"
+    },
+    "q1": "How long does the immigration process take?",
+    "a1": "Processing times vary greatly depending on the type of case, USCIS processing backlogs, and individual circumstances. Family-based cases for immediate relatives can take 1-2 years; other categories may take 3-10+ years. We will give you realistic timelines during your consultation.",
+    "q2": "How much does immigration legal help cost?",
+    "a2": "Our fees vary by case type and complexity. We offer transparent fee structures and payment plans. All fees are discussed upfront during your initial consultation. There are no hidden charges.",
+    "q3": "Can I apply for a green card if I entered the U.S. illegally?",
+    "a3": "It depends on several factors, including whether you have a qualifying family member, how long you've been in the U.S., and whether any bars to adjustment apply. Some people qualify for waivers. This is exactly the kind of situation we analyze in our paid consultations.",
+    "q4": "What is the difference between a green card and citizenship?",
+    "a4": "A green card grants you permanent residence in the U.S.—you can live and work here indefinitely but remain a citizen of your home country. Citizenship, achieved through naturalization, gives you all the rights of a U.S. citizen, including the right to vote and a U.S. passport.",
+    "q5": "Do I need a lawyer for my immigration case?",
+    "a5": "While immigration law does not technically require you to have an attorney, having professional legal representation dramatically improves your chances of success. Mistakes on immigration forms can result in delays, denials, or even bars to future applications. The stakes are too high to go it alone.",
+    "q6": "What happens if my visa petition is denied?",
+    "a6": "A denial is not the end. Depending on the type of denial, we can file a motion to reopen or reconsider, appeal to the Board of Immigration Appeals (BIA), or explore alternative pathways. We review every denial for appealable errors.",
+    "q7": "Can I work in the U.S. while my green card application is pending?",
+    "a7": "If you have a pending I-485 (Adjustment of Status), you can apply for an Employment Authorization Document (EAD), which allows you to work legally while your green card is being processed.",
+    "q8": "What is DACA and who qualifies?",
+    "a8": "DACA (Deferred Action for Childhood Arrivals) is a program that protects certain undocumented immigrants who came to the U.S. as children from deportation and provides work authorization. Requirements include being brought to the U.S. before age 16, having continuous residence since June 15, 2007, and meeting education or military criteria.",
+    "q9": "How do I qualify for asylum?",
+    "a9": "To qualify for asylum, you must demonstrate that you have suffered persecution or have a well-founded fear of persecution in your home country based on race, religion, nationality, political opinion, or membership in a particular social group. You generally must apply within 1 year of arrival.",
+    "q10": "What languages does your office serve?",
+    "a10": "Our office serves clients in English, Arabic, and French. Attorney Bachikh is fluent in all three languages, ensuring you can fully communicate about your case without language barriers."
+  },
+  "fees": {
+    "pageTitle": "Fees & Immigration Process",
+    "pageSubtitle": "Transparent pricing and a clear roadmap for your case",
+    "transparencyTitle": "Our Commitment to Transparency",
+    "transparencyText": "We believe you deserve to know what your case will cost and what to expect. Our fee structures are clear, and we discuss all costs during your initial consultation.",
+    "processTitle": "Your Immigration Journey",
+    "processSubtitle": "A step-by-step overview of how we handle your case",
+    "step1Title": "Initial Consultation",
+    "step1Desc": "We review your situation, explain your options, and outline a strategy. Consultation fee applies.",
+    "step2Title": "Case Agreement",
+    "step2Desc": "We review and sign the retainer agreement. All fees are disclosed upfront.",
+    "step3Title": "Document Collection",
+    "step3Desc": "We provide a tailored checklist of required documents. Our team assists you throughout.",
+    "step4Title": "Filing",
+    "step4Desc": "We prepare and file all required forms and supporting documentation with USCIS or the immigration court.",
+    "step5Title": "Case Monitoring",
+    "step5Desc": "We track your case, respond to any Requests for Evidence (RFEs), and keep you informed.",
+    "step6Title": "Interview Prep",
+    "step6Desc": "For cases requiring an interview, we thoroughly prepare you for what to expect.",
+    "step7Title": "Resolution",
+    "step7Desc": "We work diligently to achieve the best possible outcome and celebrate your success with you.",
+    "feeTitle": "Fee Overview",
+    "feeNote": "Actual fees are determined during your initial consultation based on your specific case. The following are general ranges for reference.",
+    "feeDisclaimer": "Government filing fees (USCIS fees) are separate from attorney fees and are set by USCIS. We will provide a complete cost breakdown before you commit.",
+    "paymentTitle": "Payment Options",
+    "payment1": "Payment plans available",
+    "payment2": "Major credit cards accepted",
+    "payment3": "Fee structure explained upfront"
+  },
+  "resources": {
+    "pageTitle": "Immigration Resources",
+    "pageSubtitle": "Guides, checklists, glossary, and links to help you navigate the system",
+    "guidesTitle": "Free Downloadable Guides",
+    "guide1Title": "The Complete Green Card Guide",
+    "guide1Desc": "Everything you need to know about obtaining permanent residence in the U.S.",
+    "guide2Title": "Naturalization Checklist",
+    "guide2Desc": "Step-by-step checklist to prepare for your citizenship application.",
+    "guide3Title": "Understanding Your Rights in Immigration Court",
+    "guide3Desc": "Know your rights if you receive a Notice to Appear.",
+    "guide4Title": "DACA Renewal Guide 2024",
+    "guide4Desc": "Current instructions and deadlines for DACA renewal applications.",
+    "glossaryTitle": "Immigration Glossary",
+    "linksTitle": "Official Government Resources",
+    "link1": "USCIS — U.S. Citizenship and Immigration Services",
+    "link2": "Department of State — Visa Information",
+    "link3": "EOIR — Executive Office for Immigration Review",
+    "link4": "ICE — Immigration and Customs Enforcement",
+    "download": "Download PDF",
+    "faqLink": "View Full FAQ"
+  },
+  "results": {
+    "pageTitle": "Case Results & Success Stories",
+    "pageSubtitle": "Real outcomes for real people — a sample of the cases we have resolved",
+    "disclaimer": "Note: Each case is unique. Prior results do not guarantee a similar outcome in your case.",
+    "filter": "Filter by:",
+    "all": "All Cases",
+    "r1Title": "Family Reunification — Green Card Approved",
+    "r1Desc": "Client from Morocco was reunited with her U.S. citizen husband after a 2-year separation. Complex consular processing case with prior visa denial successfully resolved.",
+    "r2Title": "Removal Proceedings — Case Terminated",
+    "r2Desc": "Client facing deportation after an expired visa was able to adjust status through a family petition. Removal case terminated.",
+    "r3Title": "Asylum Granted — Political Persecution",
+    "r3Desc": "Client from Algeria who feared political persecution was granted asylum after a thorough presentation of country conditions evidence.",
+    "r4Title": "Naturalization Approved — Complex Criminal History",
+    "r4Desc": "Client with a decades-old minor criminal record successfully naturalized after careful preparation and waiver application.",
+    "r5Title": "H-1B Visa Approved — Technology Sector",
+    "r5Desc": "Software engineer's H-1B petition was approved on the first attempt despite the competitive lottery system.",
+    "r6Title": "DACA Renewed — Advance Parole Travel",
+    "r6Desc": "DACA recipient's renewal and advance parole travel document approved, allowing them to visit family abroad for the first time in years."
+  },
+  "privacy": {
+    "pageTitle": "Privacy Policy",
+    "lastUpdated": "Last updated: January 1, 2024"
+  },
+  "terms": {
+    "pageTitle": "Terms of Service",
+    "lastUpdated": "Last updated: January 1, 2024"
+  },
+  "footer": {
+    "tagline": "Protecting families and futures through compassionate, expert immigration representation.",
+    "disclaimer": "Attorney advertising. The information on this website is for general informational purposes only and does not constitute legal advice. Viewing this website does not create an attorney-client relationship. Results may vary depending on the specific circumstances of each case.",
+    "practiceAreas": "Practice Areas",
+    "company": "Company",
+    "resources": "Resources",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "allRights": "All rights reserved.",
+    "barAdmission": "Licensed in Florida",
+    "aila": "AILA Member"
+  },
+  "cookie": {
+    "message": "We use cookies to enhance your browsing experience and analyze site traffic. By continuing to use this site, you agree to our use of cookies.",
+    "accept": "Accept All",
+    "decline": "Decline",
+    "learnMore": "Privacy Policy"
+  },
+  "404": {
+    "title": "Page Not Found",
+    "subtitle": "The page you are looking for does not exist.",
+    "backHome": "Back to Home"
+  },
+  "community": {
+    "badge": "Advocacy & Community",
+    "title": "Fighting for Immigrants at Every Level",
+    "subtitle": "From USCIS field offices to the halls of Congress, Omar Bachikh advocates for his clients and the broader immigrant community.",
+    "advocacyLabel": "Government & Advocacy",
+    "successLabel": "Client Victories"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email",
+    "close": "Close",
+    "openMenu": "Open menu",
+    "backToTop": "Back to top",
+    "shareOn": "Share on",
+    "categories": "Categories",
+    "tags": "Tags",
+    "author": "Author",
+    "date": "Date",
+    "minuteRead": "min read",
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "scheduleConsultation": "Schedule a Consultation"
+  }
+}
