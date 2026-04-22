@@ -8,37 +8,30 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Phone, Menu, X, ChevronDown, Globe, Scale, Users, Heart,
-  Star, Shield, Briefcase, GraduationCap, Gavel, Sunrise,
+  Shield, Briefcase, Gavel,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const practiceAreaIcons: Record<string, React.ReactNode> = {
   'family-based': <Users className="w-4 h-4" />,
-  'marriage-green-card': <Heart className="w-4 h-4" />,
-  'citizenship': <Star className="w-4 h-4" />,
   'asylum': <Shield className="w-4 h-4" />,
-  'work-visas': <Briefcase className="w-4 h-4" />,
-  'student-visas': <GraduationCap className="w-4 h-4" />,
-  'deportation-defense': <Gavel className="w-4 h-4" />,
-  'daca': <Sunrise className="w-4 h-4" />,
-  'appeals-waivers': <Scale className="w-4 h-4" />,
+  'waivers': <Scale className="w-4 h-4" />,
+  'removal-defense': <Gavel className="w-4 h-4" />,
+  'vawa-humanitarian': <Heart className="w-4 h-4" />,
+  'employment-based': <Briefcase className="w-4 h-4" />,
 };
 
 const PRACTICE_AREA_SLUGS = [
-  'family-based', 'marriage-green-card', 'citizenship', 'asylum',
-  'work-visas', 'student-visas', 'deportation-defense', 'daca', 'appeals-waivers',
+  'family-based', 'asylum', 'waivers', 'removal-defense', 'vawa-humanitarian', 'employment-based',
 ];
 
 const SLUG_TO_TITLE_KEY: Record<string, string> = {
   'family-based': 'familyBased.title',
-  'marriage-green-card': 'marriageGreenCard.title',
-  'citizenship': 'citizenship.title',
   'asylum': 'asylum.title',
-  'work-visas': 'workVisas.title',
-  'student-visas': 'studentVisas.title',
-  'deportation-defense': 'deportationDefense.title',
-  'daca': 'daca.title',
-  'appeals-waivers': 'appeals.title',
+  'waivers': 'waivers.title',
+  'removal-defense': 'removalDefense.title',
+  'vawa-humanitarian': 'vawaHumanitarian.title',
+  'employment-based': 'employmentBased.title',
 };
 
 const LOCALES = [
@@ -120,7 +113,7 @@ export default function Header() {
       <div className="bg-navy-900 text-white py-2 px-4 hidden md:block">
         <div className="max-w-7xl mx-auto flex items-center justify-between text-xs">
           <span className="text-gold-400 font-medium">
-            AILA Member · LLM Certified · 14+ Years Experience · Orlando, FL
+            AILA Member · LL.M. Widener · 15+ Years Experience · NY Bar
           </span>
           <a
             href={`tel:4846408347`}

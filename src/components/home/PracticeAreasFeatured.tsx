@@ -3,18 +3,15 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowRight, Users, Heart, Star, Shield, Briefcase, GraduationCap, Gavel, Sunrise, Scale } from 'lucide-react';
+import { ArrowRight, Users, Heart, Shield, Briefcase, Gavel, Scale } from 'lucide-react';
 
 const areas = [
   { slug: 'family-based', tKey: 'familyBased', icon: Users, color: 'bg-blue-50 text-blue-700 group-hover:bg-blue-100', iconBg: 'bg-blue-100 group-hover:bg-blue-200' },
-  { slug: 'marriage-green-card', tKey: 'marriageGreenCard', icon: Heart, color: 'bg-rose-50 text-rose-700 group-hover:bg-rose-100', iconBg: 'bg-rose-100 group-hover:bg-rose-200' },
-  { slug: 'citizenship', tKey: 'citizenship', icon: Star, color: 'bg-amber-50 text-amber-700 group-hover:bg-amber-100', iconBg: 'bg-amber-100 group-hover:bg-amber-200' },
   { slug: 'asylum', tKey: 'asylum', icon: Shield, color: 'bg-green-50 text-green-700 group-hover:bg-green-100', iconBg: 'bg-green-100 group-hover:bg-green-200' },
-  { slug: 'work-visas', tKey: 'workVisas', icon: Briefcase, color: 'bg-purple-50 text-purple-700 group-hover:bg-purple-100', iconBg: 'bg-purple-100 group-hover:bg-purple-200' },
-  { slug: 'student-visas', tKey: 'studentVisas', icon: GraduationCap, color: 'bg-teal-50 text-teal-700 group-hover:bg-teal-100', iconBg: 'bg-teal-100 group-hover:bg-teal-200' },
-  { slug: 'deportation-defense', tKey: 'deportationDefense', icon: Gavel, color: 'bg-red-50 text-red-700 group-hover:bg-red-100', iconBg: 'bg-red-100 group-hover:bg-red-200' },
-  { slug: 'daca', tKey: 'daca', icon: Sunrise, color: 'bg-orange-50 text-orange-700 group-hover:bg-orange-100', iconBg: 'bg-orange-100 group-hover:bg-orange-200' },
-  { slug: 'appeals-waivers', tKey: 'appeals', icon: Scale, color: 'bg-indigo-50 text-indigo-700 group-hover:bg-indigo-100', iconBg: 'bg-indigo-100 group-hover:bg-indigo-200' },
+  { slug: 'waivers', tKey: 'waivers', icon: Scale, color: 'bg-indigo-50 text-indigo-700 group-hover:bg-indigo-100', iconBg: 'bg-indigo-100 group-hover:bg-indigo-200' },
+  { slug: 'removal-defense', tKey: 'removalDefense', icon: Gavel, color: 'bg-red-50 text-red-700 group-hover:bg-red-100', iconBg: 'bg-red-100 group-hover:bg-red-200' },
+  { slug: 'vawa-humanitarian', tKey: 'vawaHumanitarian', icon: Heart, color: 'bg-rose-50 text-rose-700 group-hover:bg-rose-100', iconBg: 'bg-rose-100 group-hover:bg-rose-200' },
+  { slug: 'employment-based', tKey: 'employmentBased', icon: Briefcase, color: 'bg-purple-50 text-purple-700 group-hover:bg-purple-100', iconBg: 'bg-purple-100 group-hover:bg-purple-200' },
 ];
 
 export default function PracticeAreasFeatured() {

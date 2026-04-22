@@ -157,7 +157,7 @@ export default function Hero() {
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-white font-semibold text-sm leading-tight">Omar M. Bachikh, Esq., LLM</p>
-              <p className="text-gold-400 text-xs mt-0.5">AILA Member · 14+ Years · Orlando, FL</p>
+              <p className="text-gold-400 text-xs mt-0.5">AILA Member · 15+ Years · NY Bar</p>
               <div className="flex gap-1 mt-1.5">
                 {['EN', 'AR', 'FR'].map((lang) => (
                   <span key={lang} className="px-1.5 py-0.5 bg-white/20 rounded text-white text-[10px] font-semibold">{lang}</span>
@@ -216,7 +216,7 @@ export default function Hero() {
             <div className="mt-4 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 space-y-2">
               {[
                 { icon: Shield, text: 'AILA Member Attorney' },
-                { icon: Award, text: 'Client Champion Award 2021' },
+                { icon: Award, text: 'Admitted to the New York Bar' },
                 { icon: Clock, text: 'Consultation · Fee Applies' },
               ].map(({ icon: Icon, text }, i) => (
                 <motion.div

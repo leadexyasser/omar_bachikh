@@ -74,9 +74,9 @@ export default function FeesPage() {
                   { service: 'Adjustment of Status (I-485)', range: 'Starting at $2,500' },
                   { service: 'Naturalization (N-400)', range: 'Starting at $1,200' },
                   { service: 'Asylum Application', range: 'Starting at $2,000' },
-                  { service: 'Deportation Defense', range: 'Starting at $3,000' },
-                  { service: 'DACA Renewal', range: 'Starting at $500' },
-                  { service: 'Work Visa (H-1B)', range: 'Starting at $3,500' },
+                  { service: 'Removal Defense', range: 'Starting at $3,000' },
+                  { service: 'VAWA Petition (I-360)', range: 'Starting at $2,000' },
+                  { service: 'Employment-Based (EB-3)', range: 'Starting at $3,500' },
                 ].map(({ service, range }) => (
                   <div key={service} className="flex items-center justify-between bg-white rounded-xl px-4 py-3 text-sm">
                     <span className="text-gray-700 font-medium">{service}</span>

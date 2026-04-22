@@ -2,30 +2,24 @@ import { getTranslations } from 'next-intl/server';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { ArrowRight, Scale, Users, Heart, Star, Shield, Briefcase, GraduationCap, Gavel, Sunrise } from 'lucide-react';
+import { ArrowRight, Users, Heart, Shield, Briefcase, Gavel, Scale } from 'lucide-react';
 
 const areas = [
   { slug: 'family-based', icon: Users, key: 'familyBased' },
-  { slug: 'marriage-green-card', icon: Heart, key: 'marriageGreenCard' },
-  { slug: 'citizenship', icon: Star, key: 'citizenship' },
   { slug: 'asylum', icon: Shield, key: 'asylum' },
-  { slug: 'work-visas', icon: Briefcase, key: 'workVisas' },
-  { slug: 'student-visas', icon: GraduationCap, key: 'studentVisas' },
-  { slug: 'deportation-defense', icon: Gavel, key: 'deportationDefense' },
-  { slug: 'daca', icon: Sunrise, key: 'daca' },
-  { slug: 'appeals-waivers', icon: Scale, key: 'appeals' },
+  { slug: 'waivers', icon: Scale, key: 'waivers' },
+  { slug: 'removal-defense', icon: Gavel, key: 'removalDefense' },
+  { slug: 'vawa-humanitarian', icon: Heart, key: 'vawaHumanitarian' },
+  { slug: 'employment-based', icon: Briefcase, key: 'employmentBased' },
 ];
 
 const colors = [
   'from-blue-500 to-navy-900',
-  'from-rose-500 to-navy-900',
-  'from-gold-500 to-navy-700',
-  'from-green-500 to-teal-900',
-  'from-purple-500 to-navy-900',
-  'from-teal-500 to-navy-900',
-  'from-red-500 to-navy-900',
-  'from-orange-500 to-navy-900',
+  'from-green-500 to-navy-900',
   'from-indigo-500 to-navy-900',
+  'from-red-500 to-navy-900',
+  'from-rose-500 to-navy-900',
+  'from-purple-500 to-navy-900',
 ];
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

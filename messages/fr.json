@@ -1,4 +1,9 @@
 {
+  "404": {
+    "title": "Page introuvable",
+    "subtitle": "La page que vous recherchez n'existe pas.",
+    "backHome": "Retour à l'accueil"
+  },
   "meta": {
     "siteName": "Cabinet Juridique d'Omar Bachikh",
     "siteDescription": "Avocat spécialisé en immigration à Orlando, Floride. Nous aidons les familles, les travailleurs et les particuliers à naviguer dans le système d'immigration américain depuis plus de 14 ans."
@@ -27,12 +32,12 @@
     "cta1": "Obtenir une évaluation de dossier",
     "cta2": "Appelez maintenant",
     "trustLine": "Membre AILA · LLM · Champion Client 2021 · Orlando, Floride",
-    "stat1Value": "500+",
+    "stat1Value": "1 000+",
     "stat1Label": "Dossiers résolus",
-    "stat2Value": "14+",
+    "stat2Value": "15+",
     "stat2Label": "Années d'expérience",
-    "stat3Value": "98%",
-    "stat3Label": "Satisfaction client",
+    "stat3Value": "50",
+    "stat3Label": "États desservis",
     "stat4Value": "3",
     "stat4Label": "Langues parlées"
   },
@@ -41,11 +46,11 @@
     "aila": "Membre AILA",
     "ailaDesc": "Association américaine des avocats en immigration",
     "llm": "Diplôme LLM",
-    "llmDesc": "Université de Paris VIII",
+    "llmDesc": "Widener University School of Law",
     "champion": "Champion Client",
     "championDesc": "Lauréat 2021",
-    "florida": "Autorisé en Floride",
-    "floridaDesc": "Barreau de Floride",
+    "florida": "Barreau de New York",
+    "floridaDesc": "Admis au Barreau de New York",
     "arabic": "Arabophone",
     "arabicDesc": "Services aux communautés arabes",
     "french": "Francophone",
@@ -53,52 +58,40 @@
   },
   "practiceAreas": {
     "title": "Services d'immigration",
-    "subtitle": "Une représentation juridique complète dans tous les domaines du droit américain de l'immigration",
-    "viewAll": "Voir tous les domaines",
+    "subtitle": "Représentation ciblée et axée sur les résultats dans nos domaines de pratique",
+    "viewAll": "Voir tous les domaines de pratique",
     "learnMore": "En savoir plus",
     "familyBased": {
       "title": "Immigration familiale",
-      "desc": "Réunissez-vous avec vos proches. Nous traitons les pétitions pour membres de la famille immédiate, les catégories de préférence familiale et l'ajustement de statut."
-    },
-    "marriageGreenCard": {
-      "title": "Carte verte par le mariage",
-      "desc": "Nous aidons les couples à naviguer dans les procédures I-130, I-485 et le traitement consulaire pour les visas conjugaux et de fiancé(e)."
-    },
-    "citizenship": {
-      "title": "Citoyenneté & Naturalisation",
-      "desc": "Nous guidons les résidents permanents tout au long du processus de naturalisation pour obtenir la citoyenneté américaine."
+      "desc": "Réunification familiale. Pétitions pour proches parents, catégories de préférence familiale, ajustement de statut et traitement consulaire."
     },
     "asylum": {
-      "title": "Asile & Réfugiés",
-      "desc": "Protection de ceux qui fuient les persécutions. Nous représentons les demandeurs d'asile devant l'USCIS et les tribunaux d'immigration."
+      "title": "Asile",
+      "desc": "Protection des personnes fuyant la persécution. Représentation pour les demandes d'asile affirmatives et défensives devant l'USCIS et les tribunaux d'immigration."
     },
-    "workVisas": {
-      "title": "Visas de travail",
-      "desc": "H-1B, L-1, O-1, TN et autres visas d'emploi pour les professionnels et les travailleurs qualifiés."
+    "waivers": {
+      "title": "Dérogations (Waivers)",
+      "desc": "Dérogations I-601 et I-601A pour séjour irrégulier, interdictions I-212, et demandes de dérogation pour difficultés extrêmes."
     },
-    "studentVisas": {
-      "title": "Visas étudiants",
-      "desc": "Visas F-1, J-1 et M-1 pour les étudiants internationaux inscrits dans des programmes académiques et professionnels aux États-Unis."
-    },
-    "deportationDefense": {
+    "removalDefense": {
       "title": "Défense contre l'expulsion",
-      "desc": "Représentation agressive dans les procédures de renvoi. Nous nous battons pour vous garder, vous et votre famille, aux États-Unis."
+      "desc": "Représentation vigoureuse dans les procédures d'expulsion. Audiences de caution, annulation d'expulsion, et requêtes de réouverture de dossier."
     },
-    "daca": {
-      "title": "DACA & Dreamers",
-      "desc": "Demandes initiales, renouvellements et autorisation de voyage anticipé pour les bénéficiaires du programme DACA."
+    "vawaHumanitarian": {
+      "title": "VAWA & cas humanitaires",
+      "desc": "Auto-pétitions pour les survivants de violence conjugale, visas T et U, et autres formes de protection humanitaire en immigration."
     },
-    "appeals": {
-      "title": "Appels & Dérogations",
-      "desc": "Contestation des refus et décisions défavorables devant la BIA, les tribunaux fédéraux et par le biais de demandes de dérogation."
+    "employmentBased": {
+      "title": "Immigration par le travail",
+      "desc": "Cartes vertes EB-3. Certification du travail (PERM), pétitions I-140 et ajustement de statut pour les travailleurs éligibles. (EB-3 uniquement pour le moment)"
     }
   },
   "stats": {
     "title": "Notre bilan parle de lui-même",
     "subtitle": "Des chiffres qui reflètent notre engagement envers le succès de chaque client",
     "cases": "Dossiers résolus avec succès",
-    "years": "Années au service de la Floride",
-    "satisfaction": "Taux de satisfaction client",
+    "years": "Années d'expérience",
+    "satisfaction": "États desservis",
     "languages": "Langues de service"
   },
   "testimonials": {
@@ -180,22 +173,22 @@
     "heroText": "Omar M. Bachikh est un avocat spécialisé en immigration avec plus de 14 ans d'expérience, aidant les particuliers et les familles à naviguer dans les complexités du droit américain de l'immigration. Basé à Orlando, en Floride, il s'est forgé une réputation de service personnalisé, de représentation stratégique et de véritable souci pour chaque client.",
     "bio": {
       "title": "Me Omar M. Bachikh, Esq., LLM",
-      "credential1": "LLM, Université de Paris VIII",
-      "credential2": "Membre du Barreau de Floride",
-      "credential3": "American Immigration Lawyers Association (AILA)",
-      "credential4": "Lauréat du Prix Champion Client, 2021",
+      "credential1": "LL.M., Widener University School of Law",
+      "credential2": "Admis au Barreau de New York",
+      "credential3": "Membre AILA",
+      "credential4": "15+ ans de pratique en immigration",
       "p1": "Nourri d'une profonde compréhension de l'expérience des immigrants, Me Bachikh apporte à la fois expertise juridique et empathie personnelle à chaque dossier. Ses compétences multilingues — anglais, arabe et français — lui permettent de servir une clientèle diversifiée du monde arabe, d'Afrique du Nord, des communautés francophones et au-delà.",
-      "p2": "Après avoir obtenu son LLM à la prestigieuse Université de Paris VIII, Omar a consacré sa carrière au droit de l'immigration, reconnaissant l'impact profond que la représentation juridique a sur la vie des familles. Il a fondé le Cabinet Juridique d'Omar Bachikh pour fournir des services d'immigration de haute qualité et accessibles à la communauté de Floride centrale.",
+      "p2": "Après avoir obtenu son LL.M. à Widener University School of Law, Omar a consacré sa carrière exclusivement au droit de l'immigration, conscient de l'impact profond que la représentation juridique peut avoir sur la vie des familles. Il a fondé le cabinet Law Office of Omar Bachikh, LLC pour fournir des services d'immigration de haute qualité à des clients dans les 50 États et auprès des consulats américains dans le monde entier.",
       "p3": "Me Bachikh est connu pour sa rigueur, son style de communication direct et son engagement indéfectible à obtenir le meilleur résultat possible pour chaque client. Il traite chaque dossier personnellement, vous assurant d'avoir toujours accès à l'avocat qui connaît le mieux votre situation.",
       "philosophy": "\"Le droit de l'immigration ne se résume pas à de la paperasse — il s'agit de la vie des gens, de leurs familles et de leur avenir. Chaque client mérite un avocat qui se bat aussi fort pour eux qu'il le ferait pour un membre de sa famille.\""
     },
     "credentials": {
       "title": "Formation & Qualifications",
       "education": "Formation",
-      "llm": "LLM — Université de Paris VIII",
+      "llm": "LL.M. — Widener University School of Law",
       "jd": "Doctorat en droit",
       "admissions": "Admissions au Barreau",
-      "florida": "Barreau de Floride",
+      "florida": "Barreau de New York",
       "memberships": "Adhésions professionnelles",
       "aila": "American Immigration Lawyers Association (AILA)",
       "awards": "Prix & Reconnaissances",
@@ -217,9 +210,8 @@
       "city": "Orlando, Floride 32819",
       "phone": "(484) 640-8347",
       "hours": "Heures de bureau",
-      "monFri": "Lundi – Vendredi : 9h00 – 18h00",
-      "sat": "Samedi : Sur rendez-vous",
-      "sun": "Dimanche : Fermé"
+      "monFri": "Lundi – Vendredi : 9h00 – 17h00",
+      "sat": "Fermé le week-end"
     }
   },
   "quiz": {
@@ -500,13 +492,13 @@
     "r2Title": "Procédure d'expulsion — Dossier classé",
     "r2Desc": "Un client faisant face à l'expulsion suite à un visa expiré a pu ajuster son statut grâce à une pétition familiale. La procédure d'expulsion a été classée.",
     "r3Title": "Asile accordé — Persécution politique",
-    "r3Desc": "L'asile a été accordé à un client algérien craignant des persécutions politiques après une présentation approfondie des conditions du pays.",
+    "r3Desc": "Un client égyptien craignant des persécutions politiques s'est vu accorder l'asile après une présentation approfondie des conditions dans le pays d'origine.",
     "r4Title": "Naturalisation approuvée — Antécédents judiciaires complexes",
     "r4Desc": "Un client avec un casier judiciaire mineur datant de plusieurs décennies a réussi sa naturalisation après une préparation minutieuse et une demande de dérogation.",
-    "r5Title": "Visa H-1B approuvé — Secteur technologique",
-    "r5Desc": "La pétition H-1B d'un ingénieur logiciel a été approuvée dès la première tentative malgré le système de loterie compétitif.",
-    "r6Title": "Renouvellement DACA — Autorisation de voyage anticipé",
-    "r6Desc": "Le renouvellement d'un bénéficiaire DACA et le document d'autorisation de voyage anticipé ont été approuvés, lui permettant de visiter sa famille à l'étranger pour la première fois depuis des années."
+    "r5Title": "Dispense accordée — Interdiction pour séjour irrégulier",
+    "r5Desc": "Un client soumis à une interdiction de 10 ans pour séjour irrégulier a obtenu l'approbation d'une dispense I-601A, permettant la poursuite du visa de conjoint en traitement consulaire.",
+    "r6Title": "Pétition VAWA approuvée — Survivant de violence conjugale",
+    "r6Desc": "Un survivant de violence conjugale a déposé une auto-pétition VAWA. Le dossier a été approuvé, ouvrant la voie à la résidence permanente indépendamment du conjoint abusif."
   },
   "privacy": {
     "pageTitle": "Politique de confidentialité",
@@ -526,7 +518,7 @@
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "allRights": "Tous droits réservés.",
-    "barAdmission": "Autorisé en Floride",
+    "barAdmission": "Barreau de New York",
     "aila": "Membre AILA"
   },
   "cookie": {
@@ -534,11 +526,6 @@
     "accept": "Tout accepter",
     "decline": "Refuser",
     "learnMore": "Politique de confidentialité"
-  },
-  "404": {
-    "title": "Page introuvable",
-    "subtitle": "La page que vous recherchez n'existe pas.",
-    "backHome": "Retour à l'accueil"
   },
   "community": {
     "badge": "Plaidoyer & Communauté",

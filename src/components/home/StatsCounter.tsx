@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, useInView } from 'framer-motion';
-import { Scale, Award, Star, Globe } from 'lucide-react';
+import { Scale, Award, Globe, MapPin } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 function CountUp({ target, suffix = '', duration = 2000 }: { target: number; suffix?: string; duration?: number }) {
@@ -31,9 +31,9 @@ function CountUp({ target, suffix = '', duration = 2000 }: { target: number; suf
 }
 
 const stats: { value: number; suffix: string; labelKey: 'cases' | 'years' | 'satisfaction' | 'languages'; Icon: LucideIcon; color: string }[] = [
-  { value: 500, suffix: '+', labelKey: 'cases', Icon: Scale, color: 'from-navy-900 to-navy-800' },
-  { value: 14, suffix: '+', labelKey: 'years', Icon: Award, color: 'from-gold-600 to-gold-500' },
-  { value: 98, suffix: '%', labelKey: 'satisfaction', Icon: Star, color: 'from-navy-900 to-navy-800' },
+  { value: 1000, suffix: '+', labelKey: 'cases', Icon: Scale, color: 'from-navy-900 to-navy-800' },
+  { value: 15, suffix: '+', labelKey: 'years', Icon: Award, color: 'from-gold-600 to-gold-500' },
+  { value: 50, suffix: '', labelKey: 'satisfaction', Icon: MapPin, color: 'from-navy-900 to-navy-800' },
   { value: 3, suffix: '', labelKey: 'languages', Icon: Globe, color: 'from-gold-600 to-gold-500' },
 ];
 

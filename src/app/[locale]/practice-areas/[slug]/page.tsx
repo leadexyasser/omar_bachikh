@@ -26,26 +26,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const areaColors: Record<PracticeAreaSlug, string> = {
   'family-based': 'from-blue-600 to-navy-900',
-  'marriage-green-card': 'from-rose-500 to-navy-900',
-  'citizenship': 'from-gold-500 to-navy-700',
-  'asylum': 'from-green-600 to-teal-900',
-  'work-visas': 'from-purple-600 to-navy-900',
-  'student-visas': 'from-teal-600 to-navy-900',
-  'deportation-defense': 'from-red-600 to-navy-900',
-  'daca': 'from-orange-500 to-navy-900',
-  'appeals-waivers': 'from-indigo-600 to-navy-900',
+  'asylum': 'from-green-600 to-navy-900',
+  'waivers': 'from-indigo-600 to-navy-900',
+  'removal-defense': 'from-red-600 to-navy-900',
+  'vawa-humanitarian': 'from-rose-600 to-navy-900',
+  'employment-based': 'from-purple-600 to-navy-900',
 };
 
 const slugToKey: Record<PracticeAreaSlug, string> = {
   'family-based': 'familyBased',
-  'marriage-green-card': 'marriageGreenCard',
-  'citizenship': 'citizenship',
   'asylum': 'asylum',
-  'work-visas': 'workVisas',
-  'student-visas': 'studentVisas',
-  'deportation-defense': 'deportationDefense',
-  'daca': 'daca',
-  'appeals-waivers': 'appeals',
+  'waivers': 'waivers',
+  'removal-defense': 'removalDefense',
+  'vawa-humanitarian': 'vawaHumanitarian',
+  'employment-based': 'employmentBased',
 };
 
 export default async function PracticeAreaPage({ params }: Props) {

@@ -4,20 +4,16 @@ import Image from 'next/image';
 import { Phone, Mail, MapPin, Facebook, Instagram, Scale, Award, Users } from 'lucide-react';
 
 const PRACTICE_AREA_SLUGS = [
-  'family-based', 'marriage-green-card', 'citizenship', 'asylum',
-  'work-visas', 'student-visas', 'deportation-defense', 'daca', 'appeals-waivers',
+  'family-based', 'asylum', 'waivers', 'removal-defense', 'vawa-humanitarian', 'employment-based',
 ];
 
 const SLUG_TO_TITLE_KEY: Record<string, string> = {
   'family-based': 'familyBased.title',
-  'marriage-green-card': 'marriageGreenCard.title',
-  'citizenship': 'citizenship.title',
   'asylum': 'asylum.title',
-  'work-visas': 'workVisas.title',
-  'student-visas': 'studentVisas.title',
-  'deportation-defense': 'deportationDefense.title',
-  'daca': 'daca.title',
-  'appeals-waivers': 'appeals.title',
+  'waivers': 'waivers.title',
+  'removal-defense': 'removalDefense.title',
+  'vawa-humanitarian': 'vawaHumanitarian.title',
+  'employment-based': 'employmentBased.title',
 };
 
 export default function Footer() {
@@ -173,11 +169,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@bachikhlaw.com"
+                  href="mailto:obachikh@bachikhlaw.com"
                   className="flex items-center gap-3 text-sm text-gray-400 hover:text-gold-400 transition-colors group"
                 >
                   <Mail className="w-4 h-4 shrink-0 text-gold-500 group-hover:text-gold-400" />
-                  info@bachikhlaw.com
+                  obachikh@bachikhlaw.com
                 </a>
               </li>
               <li className="pt-4">

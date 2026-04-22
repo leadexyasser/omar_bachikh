@@ -1,4 +1,9 @@
 {
+  "404": {
+    "title": "Page Not Found",
+    "subtitle": "The page you are looking for does not exist.",
+    "backHome": "Back to Home"
+  },
   "meta": {
     "siteName": "Law Office of Omar Bachikh",
     "siteDescription": "Experienced immigration attorney in Orlando, Florida. Helping families, workers, and individuals navigate the U.S. immigration system for over 14 years."
@@ -27,12 +32,12 @@
     "cta1": "Start Your Case Review",
     "cta2": "Call Now",
     "trustLine": "AILA Member · LLM · Client Champion 2021 · Orlando, Florida",
-    "stat1Value": "500+",
+    "stat1Value": "1,000+",
     "stat1Label": "Cases Resolved",
-    "stat2Value": "14+",
+    "stat2Value": "15+",
     "stat2Label": "Years Experience",
-    "stat3Value": "98%",
-    "stat3Label": "Client Satisfaction",
+    "stat3Value": "50",
+    "stat3Label": "States Served",
     "stat4Value": "3",
     "stat4Label": "Languages Spoken"
   },
@@ -41,11 +46,11 @@
     "aila": "AILA Member",
     "ailaDesc": "American Immigration Lawyers Association",
     "llm": "LLM Degree",
-    "llmDesc": "University of Paris VIII",
+    "llmDesc": "Widener University School of Law",
     "champion": "Client Champion",
     "championDesc": "Award Recipient 2021",
-    "florida": "Florida Licensed",
-    "floridaDesc": "State Bar of Florida",
+    "florida": "NY Bar Admitted",
+    "floridaDesc": "Admitted to the New York Bar",
     "arabic": "Arabic Speaking",
     "arabicDesc": "Serving Arab Communities",
     "french": "French Speaking",
@@ -53,52 +58,40 @@
   },
   "practiceAreas": {
     "title": "Immigration Services",
-    "subtitle": "Comprehensive legal representation across all areas of U.S. immigration law",
+    "subtitle": "Focused, results-driven representation in the areas of law where we practice",
     "viewAll": "View All Practice Areas",
     "learnMore": "Learn More",
     "familyBased": {
       "title": "Family-Based Immigration",
-      "desc": "Reunite with your loved ones. We handle petitions for immediate relatives, family preference categories, and adjustment of status."
-    },
-    "marriageGreenCard": {
-      "title": "Marriage Green Cards",
-      "desc": "Helping couples navigate the I-130, I-485, and consular processing for spousal and fiancé(e) visas."
-    },
-    "citizenship": {
-      "title": "Citizenship & Naturalization",
-      "desc": "Guiding permanent residents through the naturalization process to achieve U.S. citizenship."
+      "desc": "Reunite with your loved ones. We handle petitions for immediate relatives, family preference categories, adjustment of status, and consular processing."
     },
     "asylum": {
-      "title": "Asylum & Refugee",
-      "desc": "Protecting those fleeing persecution. We represent asylum seekers before USCIS and the immigration courts."
+      "title": "Asylum",
+      "desc": "Protecting those fleeing persecution. Affirmative and defensive asylum representation before USCIS and immigration courts."
     },
-    "workVisas": {
-      "title": "Work Visas",
-      "desc": "H-1B, L-1, O-1, TN, and other employment-based visas for professionals and skilled workers."
+    "waivers": {
+      "title": "Waivers",
+      "desc": "I-601 and I-601A unlawful presence waivers, I-212 bars, and hardship waiver applications to overcome inadmissibility grounds."
     },
-    "studentVisas": {
-      "title": "Student Visas",
-      "desc": "F-1, J-1, and M-1 visas for international students pursuing academic and vocational programs in the U.S."
+    "removalDefense": {
+      "title": "Removal Defense",
+      "desc": "Aggressive representation in removal proceedings. Bond hearings, cancellation of removal, and motions to reopen or terminate your case."
     },
-    "deportationDefense": {
-      "title": "Deportation Defense",
-      "desc": "Aggressive representation in removal proceedings. We fight to keep you and your family in the United States."
+    "vawaHumanitarian": {
+      "title": "VAWA & Humanitarian Cases",
+      "desc": "Self-petitions for survivors of domestic violence, T and U visa applications, and other humanitarian-based immigration relief."
     },
-    "daca": {
-      "title": "DACA & Dreamers",
-      "desc": "Initial applications, renewals, and advance parole for Deferred Action for Childhood Arrivals recipients."
-    },
-    "appeals": {
-      "title": "Appeals & Waivers",
-      "desc": "Challenging denials and unfavorable decisions before the BIA, federal courts, and through waiver applications."
+    "employmentBased": {
+      "title": "Employment-Based Immigration",
+      "desc": "EB-3 employment-based green cards. Labor certification (PERM), I-140 petitions, and adjustment of status for eligible workers. (EB-3 only at this time)"
     }
   },
   "stats": {
     "title": "Our Track Record Speaks",
     "subtitle": "Numbers that reflect our commitment to every client's success",
     "cases": "Cases Successfully Resolved",
-    "years": "Years Serving Florida",
-    "satisfaction": "Client Satisfaction Rate",
+    "years": "Years of Experience",
+    "satisfaction": "States Served Nationwide",
     "languages": "Languages Served"
   },
   "testimonials": {
@@ -180,22 +173,22 @@
     "heroText": "Omar M. Bachikh is a dedicated immigration attorney with over 14 years of experience helping individuals and families navigate the complexities of U.S. immigration law. Based in Orlando, Florida, he has built a reputation for personalized service, strategic representation, and genuine care for every client.",
     "bio": {
       "title": "Attorney Omar M. Bachikh, Esq., LLM",
-      "credential1": "LLM, University of Paris VIII",
-      "credential2": "Florida Bar Association Member",
-      "credential3": "American Immigration Lawyers Association (AILA)",
-      "credential4": "Client Champion Award Recipient, 2021",
-      "p1": "Born with a deep understanding of the immigrant experience, Attorney Bachikh brings both legal expertise and personal empathy to every case. His multilingual capabilities—English, Arabic, and French—allow him to serve a diverse clientele spanning the Arab world, North Africa, francophone communities, and beyond.",
-      "p2": "After completing his LLM at the prestigious University of Paris VIII, Omar dedicated his career to immigration law, recognizing the profound impact legal representation has on families' lives. He founded the Law Office of Omar Bachikh, LLC to provide high-quality, accessible immigration services to the Central Florida community.",
+      "credential1": "LL.M., Widener University School of Law",
+      "credential2": "Admitted to the New York Bar",
+      "credential3": "AILA Member",
+      "credential4": "15+ Years Immigration Practice",
+      "p1": "Born with a deep understanding of the immigrant experience, Attorney Bachikh brings both legal expertise and personal empathy to every case. His multilingual capabilities — English, Arabic, and French — allow him to serve a diverse clientele spanning the Arab world, North Africa, francophone communities, and beyond.",
+      "p2": "After completing his LL.M. at Widener University School of Law, Omar dedicated his career exclusively to immigration law, recognizing the profound impact legal representation has on families' lives. He founded the Law Office of Omar Bachikh, LLC to provide high-quality, accessible immigration services to clients across all 50 states and at U.S. consulates worldwide.",
       "p3": "Attorney Bachikh is known for his thoroughness, his direct communication style, and his unwavering commitment to achieving the best possible outcome for each client. He handles every case personally, ensuring that you always have access to the attorney who knows your case best.",
       "philosophy": "\"Immigration law is not just about paperwork—it is about people's lives, their families, and their futures. Every client deserves an attorney who fights as hard for them as they would fight for a family member.\""
     },
     "credentials": {
       "title": "Education & Credentials",
       "education": "Education",
-      "llm": "LLM — University of Paris VIII",
+      "llm": "LL.M. — Widener University School of Law",
       "jd": "Juris Doctor — Law",
       "admissions": "Bar Admissions",
-      "florida": "State Bar of Florida",
+      "florida": "New York Bar",
       "memberships": "Professional Memberships",
       "aila": "American Immigration Lawyers Association (AILA)",
       "awards": "Awards & Recognition",
@@ -217,9 +210,8 @@
       "city": "Orlando, Florida 32819",
       "phone": "(484) 640-8347",
       "hours": "Office Hours",
-      "monFri": "Monday – Friday: 9:00 AM – 6:00 PM",
-      "sat": "Saturday: By Appointment",
-      "sun": "Sunday: Closed"
+      "monFri": "Monday – Friday: 9:00 AM – 5:00 PM",
+      "sat": "Closed on weekends"
     }
   },
   "quiz": {
@@ -500,13 +492,13 @@
     "r2Title": "Removal Proceedings — Case Terminated",
     "r2Desc": "Client facing deportation after an expired visa was able to adjust status through a family petition. Removal case terminated.",
     "r3Title": "Asylum Granted — Political Persecution",
-    "r3Desc": "Client from Algeria who feared political persecution was granted asylum after a thorough presentation of country conditions evidence.",
+    "r3Desc": "Client from Egypt who feared political persecution was granted asylum after a thorough presentation of country conditions evidence.",
     "r4Title": "Naturalization Approved — Complex Criminal History",
     "r4Desc": "Client with a decades-old minor criminal record successfully naturalized after careful preparation and waiver application.",
-    "r5Title": "H-1B Visa Approved — Technology Sector",
-    "r5Desc": "Software engineer's H-1B petition was approved on the first attempt despite the competitive lottery system.",
-    "r6Title": "DACA Renewed — Advance Parole Travel",
-    "r6Desc": "DACA recipient's renewal and advance parole travel document approved, allowing them to visit family abroad for the first time in years."
+    "r5Title": "Waiver Approved — Unlawful Presence Bar",
+    "r5Desc": "Client subject to a 10-year bar due to unlawful presence obtained an approved I-601A waiver, allowing their spouse visa to proceed through consular processing.",
+    "r6Title": "VAWA Petition Approved — Domestic Violence Survivor",
+    "r6Desc": "Survivor of domestic violence filed a VAWA self-petition. Case approved, granting the client a pathway to permanent residency independent of their abusive spouse."
   },
   "privacy": {
     "pageTitle": "Privacy Policy",
@@ -526,7 +518,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "allRights": "All rights reserved.",
-    "barAdmission": "Licensed in Florida",
+    "barAdmission": "NY Bar Admitted",
     "aila": "AILA Member"
   },
   "cookie": {
@@ -534,11 +526,6 @@
     "accept": "Accept All",
     "decline": "Decline",
     "learnMore": "Privacy Policy"
-  },
-  "404": {
-    "title": "Page Not Found",
-    "subtitle": "The page you are looking for does not exist.",
-    "backHome": "Back to Home"
   },
   "community": {
     "badge": "Advocacy & Community",

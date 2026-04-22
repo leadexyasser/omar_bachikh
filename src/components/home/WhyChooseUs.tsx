@@ -3,7 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowRight, Clock, User, Globe, MessageSquare, Target, Heart, Scale, GraduationCap, Award, MapPin } from 'lucide-react';
+import { ArrowRight, Clock, User, Globe, MessageSquare, Target, Heart, Scale, GraduationCap, MapPin, Shield } from 'lucide-react';
 
 const items = [
   { key: 'item1', icon: Clock },
@@ -53,10 +53,10 @@ export default function WhyChooseUs() {
                 <div className="space-y-3">
                   {[
                     { Icon: Scale, text: 'AILA Member Attorney' },
-                    { Icon: GraduationCap, text: 'LLM — University of Paris VIII' },
-                    { Icon: Award, text: 'Client Champion Award 2021' },
+                    { Icon: GraduationCap, text: 'LL.M. — Widener University School of Law' },
+                    { Icon: Shield, text: 'Admitted to the New York Bar' },
                     { Icon: Globe, text: 'English · Arabic · French' },
-                    { Icon: MapPin, text: 'Orlando, Florida' },
+                    { Icon: MapPin, text: 'All 50 States & U.S. Consulates' },
                   ].map(({ Icon, text }) => (
                     <div key={text} className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5 text-sm">
                       <Icon className="w-4 h-4 text-gold-400 shrink-0" />

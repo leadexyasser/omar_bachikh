@@ -7,7 +7,6 @@ import { Award, GraduationCap, Scale, Shield, MessageCircle, Globe } from 'lucid
 const badges = [
   { key: 'aila', icon: Scale, bg: 'bg-navy-50', iconColor: 'text-navy-600' },
   { key: 'llm', icon: GraduationCap, bg: 'bg-gold-50', iconColor: 'text-gold-600' },
-  { key: 'champion', icon: Award, bg: 'bg-amber-50', iconColor: 'text-amber-600' },
   { key: 'florida', icon: Shield, bg: 'bg-blue-50', iconColor: 'text-blue-600' },
   { key: 'arabic', icon: MessageCircle, bg: 'bg-green-50', iconColor: 'text-green-600' },
   { key: 'french', icon: Globe, bg: 'bg-purple-50', iconColor: 'text-purple-600' },
