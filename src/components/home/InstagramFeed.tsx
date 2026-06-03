@@ -5,11 +5,23 @@ import { motion } from 'framer-motion';
 import { Instagram, Play, ExternalLink, Video } from 'lucide-react';
 
 const WIDGET_ID = process.env.NEXT_PUBLIC_BEHOLD_WIDGET_ID;
-
 const HANDLE = 'bachikhlaw';
 const INSTAGRAM_URL = `https://www.instagram.com/${HANDLE}/`;
 
-// Decorative placeholder grid — purely visual, not fake posts
+function BeholdWidget({ widgetId }: { widgetId: string }) {
+  const loadedRef = useRef(false);
+  useEffect(() => {
+    if (loadedRef.current) return;
+    loadedRef.current = true;
+    const script = document.createElement('script');
+    script.src = 'https://cdn.behold.so/widget.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+  }, []);
+  return <div id={`behold-widget-${widgetId}`} className="w-full" />;
+}
+
 const placeholderItems = [
   { gradient: 'from-navy-800 to-navy-900', icon: true, delay: 0 },
   { gradient: 'from-gold-700/40 to-navy-900', icon: false, delay: 0.05 },
@@ -19,36 +31,9 @@ const placeholderItems = [
   { gradient: 'from-navy-800 to-navy-700', icon: true, delay: 0.25 },
 ];
 
-function BeholdWidget({ widgetId }: { widgetId: string }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const loadedRef = useRef(false);
-
-  useEffect(() => {
-    if (loadedRef.current) return;
-    loadedRef.current = true;
-
-    const script = document.createElement('script');
-    script.src = 'https://cdn.behold.so/widget.js';
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-
-    return () => {
-      // leave script in DOM — removing it breaks already-initialized widgets
-    };
-  }, []);
-
-  return (
-    <div ref={containerRef} className="w-full">
-      <div id={`behold-widget-${widgetId}`} />
-    </div>
-  );
-}
-
 function PlaceholderGrid() {
   return (
     <div className="w-full">
-      {/* Decorative grid */}
       <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 mb-8 opacity-40">
         {placeholderItems.map((item, i) => (
           <motion.div
@@ -63,8 +48,6 @@ function PlaceholderGrid() {
           </motion.div>
         ))}
       </div>
-
-      {/* Profile card */}
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -92,19 +75,6 @@ function PlaceholderGrid() {
           <ExternalLink className="w-3.5 h-3.5 opacity-70" />
         </a>
       </motion.div>
-
-      {/* Setup banner — visible in dev, hidden in prod unless env var missing */}
-      {process.env.NODE_ENV === 'development' && (
-        <div className="mt-4 p-4 bg-amber-500/10 border border-amber-500/30 rounded-xl text-amber-300 text-xs">
-          <strong>To activate live Instagram feed:</strong>
-          <ol className="mt-1 space-y-1 list-decimal list-inside">
-            <li>Sign up free at <span className="font-mono">behold.so</span></li>
-            <li>Connect your Instagram <span className="font-mono">@{HANDLE}</span></li>
-            <li>Copy your widget ID from the embed code</li>
-            <li>Add <span className="font-mono">NEXT_PUBLIC_BEHOLD_WIDGET_ID=your-id</span> to <span className="font-mono">.env.local</span></li>
-          </ol>
-        </div>
-      )}
     </div>
   );
 }
@@ -113,7 +83,6 @@ export default function InstagramFeed() {
   return (
     <section className="bg-navy-950 py-20 overflow-hidden" aria-label="Instagram feed">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -135,7 +104,6 @@ export default function InstagramFeed() {
               Attorney Bachikh shares immigration tips, case insights, and community updates on Instagram.
             </p>
           </div>
-
           <a
             href={INSTAGRAM_URL}
             target="_blank"
@@ -148,7 +116,6 @@ export default function InstagramFeed() {
           </a>
         </motion.div>
 
-        {/* Feed — live widget if configured, placeholder otherwise */}
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -176,7 +143,6 @@ export default function InstagramFeed() {
           )}
         </motion.div>
 
-        {/* Feature pills */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
