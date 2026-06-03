@@ -55,7 +55,7 @@ export default function StatsCounter() {
             <span className="w-8 h-px bg-gold-500" />
             By The Numbers
           </div>
-          <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-navy-900">
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-navy-900">
             {t('title')}
           </h2>
           <p className="text-base sm:text-lg text-gray-500 leading-relaxed mt-4">{t('subtitle')}</p>
@@ -73,7 +73,7 @@ export default function StatsCounter() {
               className="bg-white p-10 flex flex-col items-center text-center"
             >
               <stat.Icon className="w-6 h-6 text-gold-500 mb-4" aria-hidden="true" />
-              <div className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold gold-text leading-none">
+              <div className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold gold-text leading-none">
                 <CountUp target={stat.value} suffix={stat.suffix} />
               </div>
               <p className="text-gray-500 text-sm font-medium mt-3 max-w-[120px] leading-tight">

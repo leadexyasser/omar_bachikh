@@ -37,7 +37,7 @@ export default function CtaSection() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-navy-900 leading-[0.95]"
+              className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-navy-900 leading-[0.95]"
             >
               {t('title')}
             </motion.h2>

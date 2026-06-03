@@ -16,7 +16,7 @@ export default function TrustBadges() {
   const items = [...CREDENTIALS, ...CREDENTIALS];
 
   return (
-    <section className="relative bg-navy-900 py-5 overflow-hidden" aria-label="Credentials">
+    <section className="relative bg-navy-900 py-3 sm:py-4 overflow-hidden" aria-label="Credentials">
       {/* Fade edges */}
       <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-navy-900 to-transparent" aria-hidden="true" />
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-navy-900 to-transparent" aria-hidden="true" />
@@ -24,8 +24,8 @@ export default function TrustBadges() {
       <div className="flex w-max animate-marquee marquee-track" aria-hidden="true">
         {items.map((item, i) => (
           <div key={i} className="flex items-center">
-            <span className="text-sm text-gray-300 font-medium whitespace-nowrap">{item}</span>
-            <span className="text-gold-500 mx-6">◆</span>
+            <span className="text-xs sm:text-sm text-gray-300 font-medium whitespace-nowrap">{item}</span>
+            <span className="text-gold-500 mx-4 sm:mx-5 text-[10px] sm:text-xs">◆</span>
           </div>
         ))}
       </div>

@@ -27,7 +27,7 @@ export default function AboutPage() {
             <span className="w-8 h-px bg-gold-500" />
             {t('badgeText')}
           </div>
-          <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-[0.95] max-w-4xl tracking-tight">
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[0.95] max-w-4xl tracking-tight">
             {t('heroHeadline')}
           </h1>
           <p className="text-base sm:text-lg text-gray-400 max-w-2xl leading-relaxed mt-7">
@@ -115,7 +115,7 @@ export default function AboutPage() {
               <span className="w-8 h-px bg-gold-500" />
               Qualifications
             </div>
-            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-white leading-tight">{t('credentials.title')}</h2>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-white leading-tight">{t('credentials.title')}</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
@@ -168,7 +168,7 @@ export default function AboutPage() {
                 <span className="w-8 h-px bg-gold-500" />
                 How We Work
               </div>
-              <h2 className="font-serif text-4xl sm:text-5xl font-bold text-navy-900 leading-[0.95]">{t('philosophy.title')}</h2>
+              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy-900 leading-[0.95]">{t('philosophy.title')}</h2>
               <div className="w-12 h-0.5 bg-gold-500 mt-7" />
             </div>
             <div className="space-y-6 text-gray-600 leading-relaxed">
@@ -190,7 +190,7 @@ export default function AboutPage() {
                 <span className="w-8 h-px bg-gold-500" />
                 Get In Touch
               </div>
-              <h2 className="font-serif text-4xl sm:text-5xl font-bold mb-7 leading-tight">{t('office.title')}</h2>
+              <h2 className="font-serif text-3xl sm:text-4xl font-bold mb-7 leading-tight">{t('office.title')}</h2>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-gold-400 mt-0.5 shrink-0" />

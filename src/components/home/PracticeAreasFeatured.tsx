@@ -35,7 +35,7 @@ export default function PracticeAreasFeatured() {
               <span className="w-8 h-px bg-gold-500" />
               Immigration Services
             </div>
-            <h2 id="practice-areas-heading" className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-navy-900 leading-[0.95]">
+            <h2 id="practice-areas-heading" className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-navy-900 leading-[0.95]">
               {t('title')}
             </h2>
           </div>

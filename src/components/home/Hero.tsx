@@ -84,7 +84,7 @@ export default function Hero() {
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="font-serif font-bold leading-[0.9] text-5xl sm:text-6xl lg:text-[5.5rem] xl:text-[7rem] tracking-tight"
+            className="font-serif font-bold leading-[0.9] text-4xl sm:text-5xl lg:text-6xl xl:text-[5.5rem] tracking-tight"
           >
             <span className="block text-white">{leadWords}</span>
             {lastWord && (

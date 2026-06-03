@@ -43,7 +43,7 @@ export default function WhyChooseUs() {
                 <span className="w-8 h-px bg-gold-500" />
                 Why Choose Us
               </div>
-              <h2 id="why-us-heading" className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[0.95]">
+              <h2 id="why-us-heading" className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-[0.95]">
                 {t('title')}
               </h2>
               <div className="w-12 h-0.5 bg-gold-500 my-7" />
@@ -88,7 +88,7 @@ export default function WhyChooseUs() {
               <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-gold-500/10 blur-3xl pointer-events-none" aria-hidden="true" />
 
               <div className="relative">
-                <div className="font-serif text-6xl font-bold gold-text leading-none">15+</div>
+                <div className="font-serif text-5xl font-bold gold-text leading-none">15+</div>
                 <p className="text-gray-300 text-base mt-3 mb-8">Years of dedicated immigration practice</p>
 
                 <div className="space-y-3">
