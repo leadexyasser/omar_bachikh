@@ -11,6 +11,7 @@ import BlogPreview from '@/components/home/BlogPreview';
 import CtaSection from '@/components/home/CtaSection';
 import CommunitySection from '@/components/home/CommunitySection';
 import InstagramFeed from '@/components/home/InstagramFeed';
+import PhotoStrip from '@/components/home/PhotoStrip';
 
 interface HomePageProps {
   params: Promise<{ locale: string }>;
@@ -33,6 +34,7 @@ export default function HomePage() {
       <StatsCounter />
       <PracticeAreasFeatured />
       <WhyChooseUs />
+      <PhotoStrip />
       <CommunitySection />
       <Testimonials />
       <BlogPreview />
