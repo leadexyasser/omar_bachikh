@@ -10,6 +10,7 @@ import Testimonials from '@/components/home/Testimonials';
 import BlogPreview from '@/components/home/BlogPreview';
 import CtaSection from '@/components/home/CtaSection';
 import CommunitySection from '@/components/home/CommunitySection';
+import InstagramFeed from '@/components/home/InstagramFeed';
 
 interface HomePageProps {
   params: Promise<{ locale: string }>;
@@ -35,6 +36,7 @@ export default function HomePage() {
       <CommunitySection />
       <Testimonials />
       <BlogPreview />
+      <InstagramFeed />
       <CtaSection />
     </>
   );
