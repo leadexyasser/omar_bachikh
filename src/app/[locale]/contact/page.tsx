@@ -23,7 +23,7 @@ export default function ContactPage() {
   return (
     <div className="bg-white">
       {/* Hero */}
-      <section className="bg-hero-gradient py-20">
+      <section className="bg-hero-gradient pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="font-serif text-4xl sm:text-5xl font-bold text-white mb-4">{t('pageTitle')}</h1>
           <p className="text-lg text-gray-300">{t('pageSubtitle')}</p>

@@ -32,7 +32,7 @@ export default async function BlogPostPage({ params }: Props) {
   return (
     <div className="bg-white">
       {/* Hero */}
-      <section className="bg-hero-gradient py-20">
+      <section className="bg-hero-gradient pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href={localePath('/blog')} className="inline-flex items-center gap-2 text-white/70 hover:text-white text-sm mb-6 transition-colors">
             <ArrowLeft className="w-4 h-4" />

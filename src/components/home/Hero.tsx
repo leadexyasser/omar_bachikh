@@ -4,14 +4,14 @@ import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { ArrowRight, Phone, ChevronDown, Award, Shield, Clock, Scale, Star, Globe } from 'lucide-react';
+import { ArrowRight, Phone, ChevronDown, Globe } from 'lucide-react';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.12, duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+    transition: { delay: i * 0.08, duration: 0.6, ease: [0.22, 1, 0.36, 1] },
   }),
 };
 
@@ -20,57 +20,62 @@ export default function Hero() {
   const locale = useLocale();
   const localePath = (path: string) => `/${locale}${path}`;
 
+  // Split the headline: all but the final word in white, final word in italic gold.
+  const headline = t('headline');
+  const words = headline.split(' ');
+  const lastWord = words.length > 1 ? words[words.length - 1] : '';
+  const leadWords = words.length > 1 ? words.slice(0, -1).join(' ') : headline;
+
   return (
     <section
-      className="relative min-h-[92vh] flex items-center overflow-hidden bg-hero-gradient"
+      className="relative min-h-screen flex items-center overflow-hidden bg-[#060E1B]"
       aria-label="Hero section"
     >
-      {/* Background geometric pattern */}
+      {/* Atmospheric background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
-        {/* Large circle accent */}
-        <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-gold-500/5 border border-gold-500/10" />
-        <div className="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-gold-500/8 border border-gold-500/15" />
+        {/* gradient base */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#060E1B] via-[#0A1628] to-[#0E2952]" />
 
-        {/* Grid lines */}
-        <svg className="absolute inset-0 w-full h-full opacity-[0.03]" xmlns="http://www.w3.org/2000/svg">
+        {/* Gold orb */}
+        <motion.div
+          className="absolute top-[-10%] right-[5%] w-[32rem] h-[32rem] rounded-full bg-gold-500/10 blur-[120px]"
+          animate={{ scale: [1, 1.15, 1], opacity: [0.4, 0.65, 0.4] }}
+          transition={{ duration: 9, repeat: Infinity, ease: 'easeInOut' }}
+        />
+        {/* Navy orb */}
+        <motion.div
+          className="absolute bottom-[-15%] left-[-5%] w-[36rem] h-[36rem] rounded-full bg-navy-600/30 blur-[130px]"
+          animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
+          transition={{ duration: 11, repeat: Infinity, ease: 'easeInOut', delay: 2 }}
+        />
+
+        {/* Fine grid */}
+        <svg className="absolute inset-0 w-full h-full opacity-[0.025]" xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-              <path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" strokeWidth="1"/>
+            <pattern id="hero-grid" width="64" height="64" patternUnits="userSpaceOnUse">
+              <path d="M 64 0 L 0 0 0 64" fill="none" stroke="white" strokeWidth="1" />
             </pattern>
           </defs>
-          <rect width="100%" height="100%" fill="url(#grid)" />
+          <rect width="100%" height="100%" fill="url(#hero-grid)" />
         </svg>
-
-        {/* Gold diagonal accent */}
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-gold-500/[0.04] to-transparent" />
-
-        {/* Floating orbs */}
-        <motion.div
-          className="absolute top-1/4 right-1/4 w-72 h-72 rounded-full bg-navy-800/50 blur-3xl"
-          animate={{ scale: [1, 1.1, 1], opacity: [0.3, 0.5, 0.3] }}
-          transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
-        />
-        <motion.div
-          className="absolute bottom-1/4 left-1/4 w-48 h-48 rounded-full bg-gold-500/10 blur-3xl"
-          animate={{ scale: [1, 1.2, 1], opacity: [0.2, 0.4, 0.2] }}
-          transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut', delay: 2 }}
-        />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20 grid lg:grid-cols-2 gap-12 items-center">
-        {/* Left — text */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-24 lg:py-28 grid lg:grid-cols-[55%_45%] gap-12 items-center">
+        {/* LEFT — text */}
         <div>
-          {/* Badge */}
+          {/* Overline */}
           <motion.div
             custom={0}
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-gold-500/15 border border-gold-500/30 rounded-full mb-6"
+            className="flex items-center gap-3 mb-7"
           >
-            <Award className="w-4 h-4 text-gold-400" />
-            <span className="text-gold-300 text-sm font-medium">{t('badge')}</span>
+            <span className="w-8 h-px bg-gold-500" />
+            <span className="text-xs uppercase tracking-[0.2em] font-medium text-gold-400">
+              Immigration Attorney · Orlando, FL
+            </span>
           </motion.div>
 
           {/* Headline */}
@@ -79,39 +84,32 @@ export default function Hero() {
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-4 sm:mb-6"
+            className="font-serif font-bold leading-[0.9] text-5xl sm:text-6xl lg:text-[5.5rem] xl:text-[7rem] tracking-tight"
           >
-            {t('headline').split(' ').map((word, i, arr) =>
-              i === arr.length - 1 ? (
-                <span key={i} className="text-gold-400">
-                  {' '}{word}
-                </span>
-              ) : (
-                <span key={i}>{i === 0 ? word : ' ' + word}</span>
-              )
+            <span className="block text-white">{leadWords}</span>
+            {lastWord && (
+              <span className="block italic gold-text">{lastWord}</span>
             )}
           </motion.h1>
 
-          {/* Subheadline */}
-          <motion.p
+          {/* Gold divider */}
+          <motion.div
             custom={2}
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="text-lg text-gray-300 leading-relaxed mb-8 max-w-xl"
-          >
-            {t('subheadline')}
-          </motion.p>
+            className="w-12 h-0.5 bg-gold-500 my-6 sm:my-7"
+          />
 
-          {/* Trust line */}
+          {/* Subheadline */}
           <motion.p
             custom={3}
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="text-sm text-gold-400/80 font-medium mb-8"
+            className="text-base sm:text-lg text-gray-400 leading-relaxed max-w-md"
           >
-            {t('trustLine')}
+            {t('subheadline')}
           </motion.p>
 
           {/* CTAs */}
@@ -120,138 +118,102 @@ export default function Hero() {
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="flex flex-col sm:flex-row gap-3"
+            className="mt-8 flex flex-col sm:flex-row gap-3"
           >
             <Link
               href={localePath('/visa-quiz')}
-              className="inline-flex items-center justify-center gap-2 px-7 py-4 bg-gold-500 text-navy-900 rounded-xl text-base font-bold hover:bg-gold-400 transition-all duration-200 shadow-gold hover:shadow-gold-hover hover:-translate-y-0.5 animate-pulse-gold"
+              className="inline-flex items-center justify-center gap-2 px-7 py-4 bg-gold-500 text-navy-900 rounded-xl text-base font-bold hover:bg-gold-400 transition-all duration-200 shadow-glow-gold hover:shadow-gold-hover hover:-translate-y-1"
             >
               {t('cta1')}
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-5 h-5 rtl:rotate-180" />
             </Link>
             <a
               href="tel:4846408347"
-              className="inline-flex items-center justify-center gap-2 px-7 py-4 border-2 border-white/25 text-white rounded-xl text-base font-semibold hover:bg-white/10 hover:border-white/40 transition-all duration-200 backdrop-blur-sm"
+              className="inline-flex items-center justify-center gap-2 px-7 py-4 border border-white/20 text-white rounded-xl text-base font-semibold hover:bg-white/5 hover:border-white/40 transition-all duration-200 backdrop-blur-sm"
             >
               <Phone className="w-5 h-5" />
               {t('cta2')}
             </a>
           </motion.div>
 
-          {/* Mobile attorney trust strip — replaces the hidden photo panel */}
+          {/* Language pills */}
           <motion.div
             custom={5}
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="lg:hidden mt-6 flex items-center gap-3 p-3 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/15"
+            className="mt-8 flex items-center gap-2"
           >
-            <div className="w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-gold-500/60">
-              <Image
-                src="/images/attorney-hero.jpg"
-                alt="Omar Bachikh"
-                width={48}
-                height={48}
-                className="w-full h-full object-cover object-top"
-              />
-            </div>
-            <div className="flex-1 min-w-0">
-              <p className="text-white font-semibold text-sm leading-tight">Omar M. Bachikh, Esq., LLM</p>
-              <p className="text-gold-400 text-xs mt-0.5">AILA Member · 15+ Years · NY Bar</p>
-              <div className="flex gap-1 mt-1.5">
-                {['EN', 'AR', 'FR', 'ES'].map((lang) => (
-                  <span key={lang} className="px-1.5 py-0.5 bg-white/20 rounded text-white text-[10px] font-semibold">{lang}</span>
-                ))}
-              </div>
-            </div>
+            <Globe className="w-4 h-4 text-gold-500/70" aria-hidden="true" />
+            {['EN', 'AR', 'FR', 'ES'].map((lang) => (
+              <span
+                key={lang}
+                className="px-2.5 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-gray-300 text-xs font-semibold tracking-wide"
+              >
+                {lang}
+              </span>
+            ))}
           </motion.div>
         </div>
 
-        {/* Right — attorney photo + stats */}
+        {/* RIGHT — portrait + floating cards */}
         <motion.div
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.4, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ delay: 0.45, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="relative hidden lg:flex items-center justify-center"
         >
-          <div className="relative w-full max-w-sm mx-auto">
-            {/* Attorney photo */}
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20">
+          <div className="relative w-72 xl:w-80">
+            {/* Portrait */}
+            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-gold-500/20 shadow-deep">
               <Image
-                src="/images/attorney-hero.jpg"
+                src="/images/attorney-philadelphia.jpg"
                 alt="Omar Bachikh, Immigration Attorney"
-                width={480}
-                height={480}
-                className="w-full h-auto object-cover"
+                fill
+                sizes="(min-width: 1280px) 20rem, 18rem"
+                className="object-cover object-top"
                 priority
               />
-              {/* Gradient overlay at bottom for stats */}
-              <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-navy-950/90 to-transparent" />
-
-              {/* Stats overlay at bottom of photo */}
-              <div className="absolute inset-x-0 bottom-0 p-5">
-                <div className="grid grid-cols-2 gap-3">
-                  {[
-                    { value: t('stat1Value'), label: t('stat1Label'), Icon: Scale },
-                    { value: t('stat2Value'), label: t('stat2Label'), Icon: Award },
-                    { value: t('stat3Value'), label: t('stat3Label'), Icon: Star },
-                    { value: t('stat4Value'), label: t('stat4Label'), Icon: Globe },
-                  ].map((stat, i) => (
-                    <motion.div
-                      key={stat.label}
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      transition={{ delay: 0.6 + i * 0.1, duration: 0.4 }}
-                      className="text-center"
-                    >
-                      <div className="font-serif text-2xl font-bold text-gold-400">{stat.value}</div>
-                      <div className="text-xs text-gray-300 mt-0.5">{stat.label}</div>
-                    </motion.div>
-                  ))}
-                </div>
-              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-[#060E1B]/40 via-transparent to-transparent" />
             </div>
 
-            {/* Trust badges below photo */}
-            <div className="mt-4 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 space-y-2">
-              {[
-                { icon: Shield, text: 'AILA Member Attorney' },
-                { icon: Award, text: 'Admitted to the New York Bar' },
-                { icon: Clock, text: 'Consultation · Fee Applies' },
-              ].map(({ icon: Icon, text }, i) => (
-                <motion.div
-                  key={text}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.9 + i * 0.1 }}
-                  className="flex items-center gap-3 text-sm text-gray-300"
-                >
-                  <div className="w-7 h-7 rounded-lg bg-gold-500/20 flex items-center justify-center shrink-0">
-                    <Icon className="w-3.5 h-3.5 text-gold-400" />
-                  </div>
-                  {text}
-                </motion.div>
-              ))}
-            </div>
+            {/* Top-left floating stat */}
+            <motion.div
+              animate={{ y: [-4, 4, -4] }}
+              transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
+              className="absolute -top-5 -left-6 bg-[#0A1628]/90 backdrop-blur-md border border-white/10 rounded-2xl px-5 py-4 shadow-deep"
+            >
+              <div className="font-serif text-3xl font-bold gold-text leading-none">{t('stat1Value')}</div>
+              <div className="text-xs text-gray-400 mt-1.5">{t('stat1Label')}</div>
+            </motion.div>
+
+            {/* Bottom-right floating stat */}
+            <motion.div
+              animate={{ y: [4, -4, 4] }}
+              transition={{ duration: 5.5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
+              className="absolute -bottom-5 -right-6 bg-[#0A1628]/90 backdrop-blur-md border border-white/10 rounded-2xl px-5 py-4 shadow-deep"
+            >
+              <div className="font-serif text-3xl font-bold gold-text leading-none">{t('stat2Value')}</div>
+              <div className="text-xs text-gray-400 mt-1.5">{t('stat2Label')}</div>
+            </motion.div>
 
             {/* Floating language badge */}
             <motion.div
-              animate={{ y: [-5, 5, -5] }}
-              transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-              className="absolute -top-4 -right-4 bg-gold-500 text-navy-900 rounded-2xl px-4 py-3 shadow-gold font-bold text-sm"
+              animate={{ y: [-3, 3, -3] }}
+              transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
+              className="absolute top-1/2 -right-10 -translate-y-1/2 bg-gold-500 text-navy-900 rounded-xl px-3.5 py-2.5 shadow-glow-gold"
             >
-              <div className="flex items-center gap-1.5">
-                <Globe className="w-4 h-4" />
+              <div className="flex items-center gap-1.5 font-bold text-xs">
+                <Globe className="w-3.5 h-3.5" />
                 <span>EN · AR · FR · ES</span>
               </div>
-              <div className="text-xs font-normal mt-0.5 opacity-80">Multilingual Service</div>
             </motion.div>
           </div>
         </motion.div>
       </div>
 
       {/* Bottom wave */}
-      <div className="absolute bottom-0 left-0 right-0 overflow-hidden" aria-hidden="true">
+      <div className="absolute bottom-0 left-0 right-0 overflow-hidden leading-none" aria-hidden="true">
         <svg viewBox="0 0 1440 80" className="w-full fill-current text-white" preserveAspectRatio="none">
           <path d="M0,0 C360,80 1080,80 1440,0 L1440,80 L0,80 Z" />
         </svg>
@@ -259,17 +221,16 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <motion.div
-        className="absolute bottom-24 sm:bottom-14 left-1/2 -translate-x-1/2 z-10"
-        animate={{ y: [0, 5, 0] }}
+        className="absolute bottom-24 sm:bottom-28 left-1/2 -translate-x-1/2 z-10"
+        animate={{ y: [0, 6, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         aria-hidden="true"
       >
         <div className="flex flex-col items-center gap-1.5">
-          <span className="hidden sm:block text-white/40 text-xs tracking-widest uppercase">Scroll</span>
+          <span className="hidden sm:block text-white/40 text-[10px] tracking-[0.3em] uppercase">Scroll</span>
           <ChevronDown className="w-5 h-5 text-white/40" />
         </div>
       </motion.div>
-
     </section>
   );
 }

@@ -31,7 +31,7 @@ export default function FAQPage() {
   return (
     <div className="bg-white">
       {/* Hero */}
-      <section className="bg-hero-gradient py-20">
+      <section className="bg-hero-gradient pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-serif text-4xl sm:text-5xl font-bold text-white mb-4">{t('pageTitle')}</h1>
           <p className="text-lg text-gray-300 mb-8">{t('pageSubtitle')}</p>

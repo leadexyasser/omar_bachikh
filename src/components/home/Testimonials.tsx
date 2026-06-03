@@ -3,8 +3,8 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
-import { motion, AnimatePresence, useMotionValue, useTransform } from 'framer-motion';
-import { ChevronLeft, ChevronRight, ArrowRight, Star } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ChevronLeft, ChevronRight, ArrowRight, Star, Quote } from 'lucide-react';
 
 const GoogleLogo = () => (
   <svg viewBox="0 0 24 24" className="w-5 h-5" aria-label="Google">
@@ -129,21 +129,24 @@ export default function Testimonials() {
 
   return (
     <section
-      className="bg-white py-20 overflow-hidden"
+      className="relative bg-[#060E1B] py-24 overflow-hidden"
       aria-labelledby="testimonials-heading"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Atmospheric glow */}
+      <div className="absolute top-0 left-1/4 w-[30rem] h-[30rem] rounded-full bg-gold-500/[0.06] blur-[120px] pointer-events-none" aria-hidden="true" />
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-14"
+          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+          className="max-w-2xl mx-auto text-center mb-14"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-[#4285F4]/10 rounded-full text-[#4285F4] text-sm font-semibold mb-4 border border-[#4285F4]/20">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/5 border border-white/10 rounded-full text-gray-200 text-sm font-semibold mb-6">
             <GoogleLogo />
             <span>Google Reviews</span>
             <div className="flex gap-0.5">
@@ -152,10 +155,10 @@ export default function Testimonials() {
               ))}
             </div>
           </div>
-          <h2 id="testimonials-heading" className="section-title mb-4">
+          <h2 id="testimonials-heading" className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[0.95]">
             {t('title')}
           </h2>
-          <p className="section-subtitle max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-400 leading-relaxed mt-4">
             {t('subtitle')}
           </p>
         </motion.div>
@@ -174,7 +177,7 @@ export default function Testimonials() {
                     initial="enter"
                     animate="center"
                     exit="exit"
-                    className="bg-white rounded-3xl p-8 sm:p-10 shadow-[0_8px_40px_rgba(0,0,0,0.10)] border border-gray-100"
+                    className="bg-navy-900/60 backdrop-blur-sm rounded-3xl p-8 sm:p-10 border border-white/10 shadow-deep"
                   >
                     {/* Top row: avatar + name + Google badge */}
                     <div className="flex items-start justify-between mb-6">
@@ -183,7 +186,7 @@ export default function Testimonials() {
                           {review.initials}
                         </div>
                         <div>
-                          <p className="font-bold text-navy-900 text-base">{review.name}</p>
+                          <p className="font-bold text-white text-base">{review.name}</p>
                           <p className="text-xs text-gray-400 mt-0.5">{review.origin}</p>
                           <div className="flex gap-0.5 mt-1.5">
                             {[...Array(review.rating)].map((_, i) => (
@@ -192,16 +195,16 @@ export default function Testimonials() {
                           </div>
                         </div>
                       </div>
-                      <div className="flex items-center gap-1.5 bg-gray-50 border border-gray-100 rounded-xl px-3 py-2 shrink-0">
+                      <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 rounded-xl px-3 py-2 shrink-0">
                         <GoogleLogo />
-                        <span className="text-xs text-gray-500 font-medium">Google</span>
+                        <span className="text-xs text-gray-400 font-medium">Google</span>
                       </div>
                     </div>
 
                     {/* Quote */}
                     <div className="relative">
-                      <span className="absolute -top-2 -left-1 text-5xl text-gray-100 font-serif leading-none select-none" aria-hidden="true">&ldquo;</span>
-                      <blockquote className="font-serif text-lg sm:text-xl text-navy-900 leading-relaxed pl-6">
+                      <Quote className="absolute -top-1 -left-1 w-10 h-10 text-gold-500/30 fill-gold-500/20" aria-hidden="true" />
+                      <blockquote className="font-serif text-lg sm:text-xl text-white leading-relaxed pl-8 rtl:pl-0 rtl:pr-8">
                         {review.text}
                       </blockquote>
                     </div>
@@ -214,10 +217,10 @@ export default function Testimonials() {
                 <div className="flex items-center gap-3">
                   <button
                     onClick={prev}
-                    className="w-11 h-11 rounded-xl border-2 border-gray-200 flex items-center justify-center text-gray-500 hover:border-navy-900 hover:bg-navy-900 hover:text-white transition-all duration-200"
+                    className="w-11 h-11 rounded-xl border border-white/15 flex items-center justify-center text-gray-300 hover:border-gold-500 hover:bg-gold-500 hover:text-navy-900 transition-all duration-200"
                     aria-label="Previous review"
                   >
-                    <ChevronLeft className="w-5 h-5" />
+                    <ChevronLeft className="w-5 h-5 rtl:rotate-180" />
                   </button>
 
                   {/* Progress dots */}
@@ -232,7 +235,7 @@ export default function Testimonials() {
                         <motion.span
                           animate={{
                             width: i === current ? 28 : 8,
-                            backgroundColor: i === current ? '#0A2240' : '#D1D5DB',
+                            backgroundColor: i === current ? '#C9A84C' : '#374151',
                           }}
                           transition={{ duration: 0.3 }}
                           className="block h-2 rounded-full"
@@ -244,15 +247,15 @@ export default function Testimonials() {
 
                   <button
                     onClick={next}
-                    className="w-11 h-11 rounded-xl border-2 border-gray-200 flex items-center justify-center text-gray-500 hover:border-navy-900 hover:bg-navy-900 hover:text-white transition-all duration-200"
+                    className="w-11 h-11 rounded-xl border border-white/15 flex items-center justify-center text-gray-300 hover:border-gold-500 hover:bg-gold-500 hover:text-navy-900 transition-all duration-200"
                     aria-label="Next review"
                   >
-                    <ChevronRight className="w-5 h-5" />
+                    <ChevronRight className="w-5 h-5 rtl:rotate-180" />
                   </button>
                 </div>
 
                 {/* Counter */}
-                <span className="text-sm text-gray-400 font-medium tabular-nums">
+                <span className="text-sm text-gray-500 font-medium tabular-nums">
                   {current + 1} / {total}
                 </span>
               </div>
@@ -271,14 +274,14 @@ export default function Testimonials() {
                     key={i}
                     onClick={() => goTo(i)}
                     animate={{
-                      opacity: isVisible ? 1 : 0.35,
+                      opacity: isVisible ? 1 : 0.3,
                       scale: isActive ? 1 : 0.97,
                     }}
                     transition={{ duration: 0.25 }}
-                    className={`text-left p-4 rounded-2xl border-2 transition-all duration-200 w-full ${
+                    className={`text-left p-4 rounded-2xl border transition-all duration-200 w-full ${
                       isActive
-                        ? 'border-navy-900 bg-navy-900 text-white shadow-lg'
-                        : 'border-gray-100 bg-white hover:border-navy-200 hover:shadow-sm'
+                        ? 'border-gold-500/40 bg-gold-500/10 shadow-glow-gold'
+                        : 'border-white/10 bg-white/[0.03] hover:bg-white/[0.06]'
                     }`}
                   >
                     <div className="flex items-center gap-3 mb-2">
@@ -286,16 +289,16 @@ export default function Testimonials() {
                         {r.initials}
                       </div>
                       <div className="flex-1 min-w-0">
-                        <p className={`text-xs font-bold truncate ${isActive ? 'text-white' : 'text-navy-900'}`}>{r.name}</p>
+                        <p className={`text-xs font-bold truncate ${isActive ? 'text-white' : 'text-gray-200'}`}>{r.name}</p>
                         <div className="flex gap-0.5 mt-0.5">
                           {[...Array(5)].map((_, j) => (
-                            <Star key={j} className={`w-2.5 h-2.5 fill-current ${isActive ? 'text-gold-400' : 'text-[#FBBC05]'}`} />
+                            <Star key={j} className="w-2.5 h-2.5 fill-[#FBBC05] text-[#FBBC05]" />
                           ))}
                         </div>
                       </div>
                       <GoogleLogo />
                     </div>
-                    <p className={`text-xs leading-relaxed line-clamp-2 ${isActive ? 'text-gray-300' : 'text-gray-500'}`}>
+                    <p className={`text-xs leading-relaxed line-clamp-2 ${isActive ? 'text-gray-200' : 'text-gray-400'}`}>
                       &ldquo;{r.text}&rdquo;
                     </p>
                   </motion.button>
@@ -304,10 +307,10 @@ export default function Testimonials() {
 
               <Link
                 href={localePath('/testimonials')}
-                className="flex items-center justify-center gap-2 p-4 rounded-2xl border-2 border-dashed border-gray-200 text-sm font-semibold text-gray-400 hover:border-navy-900 hover:text-navy-900 transition-all duration-200 mt-1"
+                className="flex items-center justify-center gap-2 p-4 rounded-2xl border border-dashed border-white/15 text-sm font-semibold text-gray-400 hover:border-gold-500 hover:text-gold-400 transition-all duration-200 mt-1"
               >
                 {t('viewAll')}
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4 rtl:rotate-180" />
               </Link>
             </div>
           </div>
@@ -315,32 +318,32 @@ export default function Testimonials() {
 
         {/* Google rating summary bar */}
         <motion.div
-          initial={{ opacity: 0, y: 16 }}
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 p-6 bg-gray-50 rounded-2xl border border-gray-100"
+          transition={{ duration: 0.6, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 p-6 bg-white/[0.03] rounded-2xl border border-white/10"
         >
           <div className="flex items-center gap-3">
             <GoogleLogo />
-            <span className="font-bold text-gray-700 text-sm">Google Reviews</span>
+            <span className="font-bold text-gray-200 text-sm">Google Reviews</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="font-serif text-3xl font-bold text-navy-900">5.0</span>
+            <span className="font-serif text-3xl font-bold gold-text">5.0</span>
             <div className="flex gap-0.5">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-5 h-5 fill-[#FBBC05] text-[#FBBC05]" />
               ))}
             </div>
           </div>
-          <div className="text-sm text-gray-500">
+          <div className="text-sm text-gray-400">
             Based on verified Google reviews
           </div>
           <a
             href="https://share.google/BtkcZpdOMnuGnJMyx"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 px-4 py-2 bg-white border border-gray-200 rounded-xl text-sm font-semibold text-[#4285F4] hover:bg-[#4285F4]/5 transition-colors"
+            className="inline-flex items-center gap-1.5 px-4 py-2 bg-white/5 border border-white/10 rounded-xl text-sm font-semibold text-gray-100 hover:bg-white/10 transition-colors"
           >
             <GoogleLogo />
             Read on Google

@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default function VisaQuizPage() {
   return (
     <div className="min-h-screen bg-cream-100">
-      <div className="bg-hero-gradient py-14">
+      <div className="bg-hero-gradient pt-28 pb-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-3">Visa Eligibility Quiz</h1>
           <p className="text-gray-300 text-lg">Discover your immigration options in minutes</p>

@@ -49,7 +49,7 @@ const config: Config = {
         arabic: ['var(--font-noto-kufi)', 'Arial', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-gradient': 'linear-gradient(135deg, #0A2240 0%, #163A70 50%, #0E2952 100%)',
+        'hero-gradient': 'linear-gradient(135deg, #060E1B 0%, #0A1628 60%, #0E2952 100%)',
         'gold-gradient': 'linear-gradient(135deg, #C9A84C 0%, #E2C572 50%, #B8932A 100%)',
         'section-gradient': 'linear-gradient(180deg, #F8F6F1 0%, #FDFCFA 100%)',
       },
@@ -60,8 +60,13 @@ const config: Config = {
         'count-up': 'countUp 2s ease-out forwards',
         'pulse-gold': 'pulseGold 2s infinite',
         'float': 'float 6s ease-in-out infinite',
+        'marquee': 'marquee 30s linear infinite',
       },
       keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
         fadeUp: {
           '0%': { opacity: '0', transform: 'translateY(30px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
@@ -88,6 +93,8 @@ const config: Config = {
         'card-hover': '0 12px 40px rgba(10, 34, 64, 0.16)',
         'gold': '0 4px 20px rgba(201, 168, 76, 0.3)',
         'gold-hover': '0 8px 30px rgba(201, 168, 76, 0.5)',
+        'deep': '0 25px 60px rgba(0,0,0,0.4)',
+        'glow-gold': '0 0 40px rgba(201,168,76,0.15)',
       },
       typography: {
         DEFAULT: {

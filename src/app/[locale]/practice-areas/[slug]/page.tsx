@@ -65,7 +65,7 @@ export default async function PracticeAreaPage({ params }: Props) {
   return (
     <div className="bg-white">
       {/* Hero */}
-      <section className={`bg-gradient-to-br ${color} py-20`}>
+      <section className={`bg-gradient-to-br ${color} pt-32 pb-20`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href={localePath('/practice-areas')} className="inline-flex items-center gap-2 text-white/70 hover:text-white text-sm mb-6 transition-colors">
             <ArrowLeft className="w-4 h-4" />

@@ -5,7 +5,7 @@ export default function PrivacyPage() {
 
   return (
     <div className="bg-white">
-      <section className="bg-hero-gradient py-16">
+      <section className="bg-hero-gradient pt-32 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="font-serif text-4xl font-bold text-white mb-2">{t('pageTitle')}</h1>
           <p className="text-gray-300 text-sm">{t('lastUpdated')}</p>
