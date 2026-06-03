@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="relative z-10">
-                <div className="font-serif text-4xl sm:text-5xl font-bold text-gold-400 mb-1">14+</div>
+                <div className="font-serif text-4xl sm:text-5xl font-bold text-gold-400 mb-1">15+</div>
                 <div className="text-gray-300 text-base sm:text-lg mb-6 sm:mb-8">Years of dedicated immigration practice</div>
 
                 {/* Credential tags */}
@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
                     { Icon: Scale, text: 'AILA Member Attorney' },
                     { Icon: GraduationCap, text: 'LL.M. — Widener University School of Law' },
                     { Icon: Shield, text: 'Admitted to the New York Bar' },
-                    { Icon: Globe, text: 'English · Arabic · French' },
+                    { Icon: Globe, text: 'English · Arabic · French · Spanish' },
                     { Icon: MapPin, text: 'All 50 States & U.S. Consulates' },
                   ].map(({ Icon, text }) => (
                     <div key={text} className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5 text-sm">

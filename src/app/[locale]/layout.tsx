@@ -25,7 +25,7 @@ const notoKufi = Noto_Kufi_Arabic({
   weight: ['400', '500', '600', '700'],
 });
 
-const locales = ['en', 'ar', 'fr'];
+const locales = ['en', 'ar', 'fr', 'es'];
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     default: 'Law Office of Omar Bachikh | Immigration Attorney Orlando FL',
     template: '%s | Law Office of Omar Bachikh',
   },
-  description: 'Experienced immigration attorney in Orlando, Florida. AILA member with 14+ years of experience. Serving clients in English, Arabic, and French.',
+  description: 'Experienced immigration attorney in Orlando, Florida. AILA member with 15+ years of experience. Serving clients in English, Arabic, French, and Spanish.',
   robots: { index: true, follow: true },
 };
 
@@ -88,7 +88,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
                 },
               ],
               priceRange: '$$',
-              knowsLanguage: ['English', 'Arabic', 'French'],
+              knowsLanguage: ['English', 'Arabic', 'French', 'Spanish'],
               memberOf: { '@type': 'Organization', name: 'American Immigration Lawyers Association (AILA)' },
             }),
           }}

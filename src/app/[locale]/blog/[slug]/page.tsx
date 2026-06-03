@@ -96,7 +96,7 @@ export default async function BlogPostPage({ params }: Props) {
                   </div>
                 </div>
                 <p className="text-xs text-gray-600 leading-relaxed mb-4">
-                  AILA member with 14+ years of experience serving the Orlando, FL community in English, Arabic, and French.
+                  AILA member with 15+ years of experience serving clients nationwide in English, Arabic, French, and Spanish.
                 </p>
                 <Link href={localePath('/about')} className="text-xs font-semibold text-navy-900 hover:text-gold-600 transition-colors">
                   Learn more →

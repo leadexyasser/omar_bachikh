@@ -60,10 +60,10 @@ export default function ResultsPage() {
             <h2 className="font-serif text-3xl font-bold text-center mb-10">A Track Record You Can Trust</h2>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center mb-10">
               {[
-                { value: '500+', label: 'Cases Resolved' },
-                { value: '14+', label: 'Years Experience' },
-                { value: '98%', label: 'Client Satisfaction' },
-                { value: '100%', label: 'Dedication' },
+                { value: '1,000+', label: 'Cases Resolved' },
+                { value: '15+', label: 'Years Experience' },
+                { value: '50', label: 'States Served' },
+                { value: '3', label: 'Languages Spoken' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <div className="font-serif text-4xl font-bold text-gold-400 mb-1">{value}</div>

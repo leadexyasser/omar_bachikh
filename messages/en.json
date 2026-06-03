@@ -6,7 +6,7 @@
   },
   "meta": {
     "siteName": "Law Office of Omar Bachikh",
-    "siteDescription": "Experienced immigration attorney in Orlando, Florida. Helping families, workers, and individuals navigate the U.S. immigration system for over 14 years."
+    "siteDescription": "Experienced immigration attorney in Orlando, Florida. AILA member with 15+ years of experience. Serving clients in English, Arabic, French, and Spanish."
   },
   "nav": {
     "about": "About",
@@ -26,19 +26,19 @@
     "faq": "FAQ"
   },
   "hero": {
-    "badge": "14+ Years of Immigration Experience",
+    "badge": "15+ Years of Immigration Experience",
     "headline": "Protecting Your American Dream",
     "subheadline": "Compassionate, results-driven immigration representation for families, workers, and individuals across Florida and nationwide.",
     "cta1": "Start Your Case Review",
     "cta2": "Call Now",
-    "trustLine": "AILA Member · LLM · Client Champion 2021 · Orlando, Florida",
+    "trustLine": "AILA Member · LLM · NY Bar · Orlando, Florida",
     "stat1Value": "1,000+",
     "stat1Label": "Cases Resolved",
     "stat2Value": "15+",
     "stat2Label": "Years Experience",
     "stat3Value": "50",
     "stat3Label": "States Served",
-    "stat4Value": "3",
+    "stat4Value": "4",
     "stat4Label": "Languages Spoken"
   },
   "trustBadges": {
@@ -52,8 +52,8 @@
     "florida": "NY Bar Admitted",
     "floridaDesc": "Admitted to the New York Bar",
     "arabic": "Arabic Speaking",
-    "arabicDesc": "Serving Arab Communities",
-    "french": "French Speaking",
+    "arabicDesc": "Serving Arabic-Speaking Communities",
+    "french": "French & Spanish",
     "frenchDesc": "Multilingual Representation"
   },
   "practiceAreas": {
@@ -127,12 +127,12 @@
   "whyUs": {
     "title": "Why Choose Our Firm",
     "subtitle": "Experience, dedication, and results—these are the hallmarks of our representation",
-    "item1Title": "14+ Years of Experience",
-    "item1Desc": "With over a decade of focused immigration practice, we have the knowledge and strategy to handle even the most complex cases.",
+    "item1Title": "15+ Years of Experience",
+    "item1Desc": "With over 15 years of focused immigration practice, we have the knowledge and strategy to handle even the most complex cases.",
     "item2Title": "Personalized Attention",
     "item2Desc": "Every client receives direct access to Attorney Bachikh, not a paralegal. Your case gets the individual attention it deserves.",
     "item3Title": "Multilingual Service",
-    "item3Desc": "We serve clients in English, Arabic, and French—ensuring you can communicate fully about your case without barriers.",
+    "item3Desc": "We serve clients in English, Arabic, French, and Spanish—ensuring you can communicate fully about your case without barriers.",
     "item4Title": "Transparent Communication",
     "item4Desc": "We keep you informed at every step. No surprises, no hidden fees. Just honest, clear communication throughout your case.",
     "item5Title": "Strategic Representation",
@@ -168,16 +168,16 @@
   "about": {
     "pageTitle": "About Attorney Omar Bachikh",
     "pageSubtitle": "Your trusted immigration advocate in Central Florida",
-    "badgeText": "14+ Years Serving the Community",
+    "badgeText": "15+ Years Serving the Community",
     "heroHeadline": "Experienced. Compassionate. Results-Driven.",
-    "heroText": "Omar M. Bachikh is a dedicated immigration attorney with over 14 years of experience helping individuals and families navigate the complexities of U.S. immigration law. Based in Orlando, Florida, he has built a reputation for personalized service, strategic representation, and genuine care for every client.",
+    "heroText": "Omar M. Bachikh is a dedicated immigration attorney with over 15 years of experience helping individuals and families navigate the complexities of U.S. immigration law. Admitted to the New York Bar and an AILA member, he has built a reputation for personalized service, strategic representation, and genuine care for every client.",
     "bio": {
       "title": "Attorney Omar M. Bachikh, Esq., LLM",
       "credential1": "LL.M., Widener University School of Law",
       "credential2": "Admitted to the New York Bar",
       "credential3": "AILA Member",
       "credential4": "15+ Years Immigration Practice",
-      "p1": "Born with a deep understanding of the immigrant experience, Attorney Bachikh brings both legal expertise and personal empathy to every case. His multilingual capabilities — English, Arabic, and French — allow him to serve a diverse clientele spanning the Arab world, North Africa, francophone communities, and beyond.",
+      "p1": "Born with a deep understanding of the immigrant experience, Attorney Bachikh brings both legal expertise and personal empathy to every case. His multilingual capabilities — English, Arabic, French, and Spanish — allow him to serve a diverse clientele spanning the Arab world, North Africa, francophone and Hispanic communities, and beyond.",
       "p2": "After completing his LL.M. at Widener University School of Law, Omar dedicated his career exclusively to immigration law, recognizing the profound impact legal representation has on families' lives. He founded the Law Office of Omar Bachikh, LLC to provide high-quality, accessible immigration services to clients across all 50 states and at U.S. consulates worldwide.",
       "p3": "Attorney Bachikh is known for his thoroughness, his direct communication style, and his unwavering commitment to achieving the best possible outcome for each client. He handles every case personally, ensuring that you always have access to the attorney who knows your case best.",
       "philosophy": "\"Immigration law is not just about paperwork—it is about people's lives, their families, and their futures. Every client deserves an attorney who fights as hard for them as they would fight for a family member.\""
@@ -191,12 +191,13 @@
       "florida": "New York Bar",
       "memberships": "Professional Memberships",
       "aila": "American Immigration Lawyers Association (AILA)",
-      "awards": "Awards & Recognition",
-      "champion": "Client Champion Award — 2021",
+      "awards": "",
+      "champion": "",
       "languages": "Languages",
       "english": "English",
       "arabic": "Arabic",
-      "french": "French"
+      "french": "French",
+      "spanish": "Spanish"
     },
     "philosophy": {
       "title": "Our Philosophy",
@@ -386,7 +387,7 @@
     "phone": "Phone",
     "phoneValue": "(484) 640-8347",
     "email": "Email",
-    "emailValue": "info@bachikhlaw.com",
+    "emailValue": "obachikh@bachikhlaw.com",
     "hours": "Office Hours",
     "monFri": "Monday – Friday: 9:00 AM – 6:00 PM",
     "sat": "Saturday: By Appointment",
@@ -429,7 +430,7 @@
     "q9": "How do I qualify for asylum?",
     "a9": "To qualify for asylum, you must demonstrate that you have suffered persecution or have a well-founded fear of persecution in your home country based on race, religion, nationality, political opinion, or membership in a particular social group. You generally must apply within 1 year of arrival.",
     "q10": "What languages does your office serve?",
-    "a10": "Our office serves clients in English, Arabic, and French. Attorney Bachikh is fluent in all three languages, ensuring you can fully communicate about your case without language barriers."
+    "a10": "Our office serves clients in English, Arabic, French, and Spanish. Attorney Bachikh is fluent in all four languages, ensuring you can fully communicate about your case without language barriers."
   },
   "fees": {
     "pageTitle": "Fees & Immigration Process",

@@ -34,7 +34,7 @@ const stats: { value: number; suffix: string; labelKey: 'cases' | 'years' | 'sat
   { value: 1000, suffix: '+', labelKey: 'cases', Icon: Scale, color: 'from-navy-900 to-navy-800' },
   { value: 15, suffix: '+', labelKey: 'years', Icon: Award, color: 'from-gold-600 to-gold-500' },
   { value: 50, suffix: '', labelKey: 'satisfaction', Icon: MapPin, color: 'from-navy-900 to-navy-800' },
-  { value: 3, suffix: '', labelKey: 'languages', Icon: Globe, color: 'from-gold-600 to-gold-500' },
+  { value: 4, suffix: '', labelKey: 'languages', Icon: Globe, color: 'from-gold-600 to-gold-500' },
 ];
 
 export default function StatsCounter() {

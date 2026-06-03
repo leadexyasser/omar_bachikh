@@ -38,6 +38,7 @@ const LOCALES = [
   { code: 'en', label: 'English', flag: '🇺🇸', short: 'EN' },
   { code: 'ar', label: 'العربية', flag: '🇸🇦', short: 'AR' },
   { code: 'fr', label: 'Français', flag: '🇫🇷', short: 'FR' },
+  { code: 'es', label: 'Español', flag: '🇪🇸', short: 'ES' },
 ];
 
 export default function Header() {

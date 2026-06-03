@@ -159,7 +159,7 @@ export default function Hero() {
               <p className="text-white font-semibold text-sm leading-tight">Omar M. Bachikh, Esq., LLM</p>
               <p className="text-gold-400 text-xs mt-0.5">AILA Member · 15+ Years · NY Bar</p>
               <div className="flex gap-1 mt-1.5">
-                {['EN', 'AR', 'FR'].map((lang) => (
+                {['EN', 'AR', 'FR', 'ES'].map((lang) => (
                   <span key={lang} className="px-1.5 py-0.5 bg-white/20 rounded text-white text-[10px] font-semibold">{lang}</span>
                 ))}
               </div>
@@ -242,7 +242,7 @@ export default function Hero() {
             >
               <div className="flex items-center gap-1.5">
                 <Globe className="w-4 h-4" />
-                <span>EN · AR · FR</span>
+                <span>EN · AR · FR · ES</span>
               </div>
               <div className="text-xs font-normal mt-0.5 opacity-80">Multilingual Service</div>
             </motion.div>

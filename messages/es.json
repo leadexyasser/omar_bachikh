@@ -1,0 +1,557 @@
+{
+  "404": {
+    "title": "Página No Encontrada",
+    "subtitle": "La página que busca no existe.",
+    "backHome": "Volver al Inicio"
+  },
+  "meta": {
+    "siteName": "Bufete de Omar Bachikh",
+    "siteDescription": "Abogado de inmigración experimentado en Orlando, Florida. Miembro de AILA con más de 15 años de experiencia. Atendemos clientes en inglés, árabe, francés y español."
+  },
+  "nav": {
+    "about": "Sobre Nosotros",
+    "practiceAreas": "Áreas de Práctica",
+    "resources": "Recursos",
+    "blog": "Blog y Noticias",
+    "contact": "Contacto",
+    "freeConsultation": "Reservar Consulta",
+    "phone": "(484) 640-8347",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "language": "Idioma",
+    "allPracticeAreas": "Todas las Áreas de Práctica",
+    "results": "Resultados de Casos",
+    "testimonials": "Testimonios",
+    "fees": "Honorarios y Proceso",
+    "faq": "Preguntas Frecuentes"
+  },
+  "hero": {
+    "badge": "Más de 15 Años de Experiencia en Inmigración",
+    "headline": "Protegiendo Su Sueño Americano",
+    "subheadline": "Representación de inmigración compasiva y orientada a resultados para familias, trabajadores e individuos en todo Estados Unidos.",
+    "cta1": "Iniciar su Revisión de Caso",
+    "cta2": "Llamar Ahora",
+    "trustLine": "Miembro AILA · LLM · Barra de Nueva York · Orlando, Florida",
+    "stat1Value": "1,000+",
+    "stat1Label": "Casos Resueltos",
+    "stat2Value": "15+",
+    "stat2Label": "Años de Experiencia",
+    "stat3Value": "50",
+    "stat3Label": "Estados Atendidos",
+    "stat4Value": "4",
+    "stat4Label": "Idiomas Hablados"
+  },
+  "trustBadges": {
+    "title": "La Confianza de Cientos de Familias",
+    "aila": "Miembro AILA",
+    "ailaDesc": "Asociación Americana de Abogados de Inmigración",
+    "llm": "Título LLM",
+    "llmDesc": "Widener University School of Law",
+    "champion": "Campeón del Cliente",
+    "championDesc": "Ganador del Premio 2021",
+    "florida": "Admitido en NY",
+    "floridaDesc": "Admitido en la Barra de Nueva York",
+    "arabic": "Habla Árabe",
+    "arabicDesc": "Atendemos Comunidades de Habla Árabe",
+    "french": "Francés y Español",
+    "frenchDesc": "Representación Multilingüe"
+  },
+  "practiceAreas": {
+    "title": "Servicios de Inmigración",
+    "subtitle": "Representación enfocada y orientada a resultados en las áreas de derecho que practicamos",
+    "viewAll": "Ver Todas las Áreas de Práctica",
+    "learnMore": "Más Información",
+    "familyBased": {
+      "title": "Inmigración Familiar",
+      "desc": "Reúnase con sus seres queridos. Manejamos peticiones para familiares inmediatos, categorías de preferencia familiar, ajuste de estatus y procesamiento consular."
+    },
+    "asylum": {
+      "title": "Asilo",
+      "desc": "Protegemos a quienes huyen de la persecución. Representación de asilo afirmativa y defensiva ante el USCIS y los tribunales de inmigración."
+    },
+    "waivers": {
+      "title": "Exenciones (Waivers)",
+      "desc": "Exenciones de presencia ilegal I-601 e I-601A, barreras I-212 y solicitudes de exención por dificultades para superar causas de inadmisibilidad."
+    },
+    "removalDefense": {
+      "title": "Defensa contra la Deportación",
+      "desc": "Representación agresiva en procedimientos de deportación. Audiencias de fianza, cancelación de deportación y mociones para reabrir o terminar su caso."
+    },
+    "vawaHumanitarian": {
+      "title": "Casos VAWA y Humanitarios",
+      "desc": "Autopeticiones para sobrevivientes de violencia doméstica, solicitudes de visa T y U, y otros alivios migratorios de base humanitaria."
+    },
+    "employmentBased": {
+      "title": "Inmigración Basada en Empleo",
+      "desc": "Tarjetas de residencia EB-3 basadas en empleo. Certificación laboral (PERM), peticiones I-140 y ajuste de estatus para trabajadores elegibles. (Solo EB-3 por el momento)"
+    }
+  },
+  "stats": {
+    "title": "Nuestro Historial Habla por Sí Solo",
+    "subtitle": "Cifras que reflejan nuestro compromiso con el éxito de cada cliente",
+    "cases": "Casos Resueltos con Éxito",
+    "years": "Años de Experiencia",
+    "satisfaction": "Estados Atendidos a Nivel Nacional",
+    "languages": "Idiomas de Servicio"
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "subtitle": "Historias reales de familias e individuos a quienes hemos ayudado",
+    "viewAll": "Leer Todos los Testimonios",
+    "t1": {
+      "name": "Fatima A.",
+      "origin": "Marruecos → Orlando, FL",
+      "text": "El abogado Bachikh manejó mi caso de tarjeta verde con un cuidado y profesionalismo increíbles. Siempre estuvo disponible para responder mis preguntas y hizo que un proceso muy estresante se sintiera manejable. ¡Ahora soy residente permanente gracias a él!"
+    },
+    "t2": {
+      "name": "Carlos M.",
+      "origin": "México → Florida Central",
+      "text": "Estaba enfrentando una deportación y me sentía sin esperanza. Omar luchó duro por mi caso y ¡ganamos! No es solo un abogado, realmente se preocupa por sus clientes. Lo recomiendo ampliamente a cualquiera que tenga problemas de inmigración."
+    },
+    "t3": {
+      "name": "Aisha B.",
+      "origin": "Egipto → Florida",
+      "text": "Desde la consulta inicial hasta el aviso de aprobación, el proceso fue fluido y transparente. El Sr. Bachikh nos guió en cada paso de la naturalización de mi esposo. ¡Estamos eternamente agradecidos!"
+    },
+    "t4": {
+      "name": "Jean-Pierre L.",
+      "origin": "Camerún → Orlando, FL",
+      "text": "Necesitaba ayuda con mi caso de asilo. Omar fue muy conocedor, compasivo y estratégico. Me preparó a fondo para mi entrevista. Se me concedió el asilo y finalmente me siento seguro. Gracias de todo corazón."
+    },
+    "t5": {
+      "name": "Yusuf H.",
+      "origin": "Somalia → Florida",
+      "text": "¡Excelente servicio! La oficina se comunicó en árabe, lo que me facilitó mucho todo. Mi caso fue manejado profesionalmente y recibí mi tarjeta verde sin ningún problema."
+    }
+  },
+  "whyUs": {
+    "title": "Por Qué Elegir Nuestro Bufete",
+    "subtitle": "Experiencia, dedicación y resultados — estas son las características de nuestra representación",
+    "item1Title": "Más de 15 Años de Experiencia",
+    "item1Desc": "Con más de 15 años de práctica de inmigración enfocada, tenemos el conocimiento y la estrategia para manejar incluso los casos más complejos.",
+    "item2Title": "Atención Personalizada",
+    "item2Desc": "Cada cliente tiene acceso directo al Abogado Bachikh, no a un asistente legal. Su caso recibe la atención individual que merece.",
+    "item3Title": "Servicio Multilingüe",
+    "item3Desc": "Atendemos clientes en inglés, árabe, francés y español, asegurando que pueda comunicarse plenamente sobre su caso sin barreras.",
+    "item4Title": "Comunicación Transparente",
+    "item4Desc": "Lo mantenemos informado en cada paso. Sin sorpresas, sin honorarios ocultos. Solo comunicación honesta y clara durante todo su caso.",
+    "item5Title": "Representación Estratégica",
+    "item5Desc": "Abordamos cada caso con el rigor y la preparación que merece, construyendo el argumento más sólido posible en su nombre.",
+    "item6Title": "Enfoque Comunitario",
+    "item6Desc": "Profundamente integrado en la comunidad inmigrante de Florida Central, entendemos los desafíos únicos que enfrentan nuestros clientes."
+  },
+  "blog": {
+    "title": "Perspectivas del Derecho de Inmigración",
+    "subtitle": "Manténgase informado con las últimas noticias, actualizaciones y orientaciones de nuestra oficina",
+    "readMore": "Leer Artículo",
+    "viewAll": "Ver Todos los Artículos",
+    "post1Title": "Actualizaciones de Política Migratoria 2024: Lo Que Necesita Saber",
+    "post1Excerpt": "Un resumen completo de los cambios más importantes en la política migratoria de EE. UU. y cómo pueden afectar su caso.",
+    "post1Date": "15 de noviembre de 2024",
+    "post2Title": "La Guía Completa del Proceso de Tarjeta Verde por Matrimonio",
+    "post2Excerpt": "Desde la presentación del I-130 hasta su entrevista, aquí está todo lo que necesita saber sobre obtener una tarjeta verde a través del matrimonio.",
+    "post2Date": "28 de octubre de 2024",
+    "post3Title": "Renovación de DACA: Plazos, Requisitos y Qué Esperar",
+    "post3Excerpt": "Orientación oportuna para los actuales beneficiarios de DACA sobre el proceso de renovación, documentación requerida y errores comunes a evitar.",
+    "post3Date": "10 de octubre de 2024",
+    "post4Title": "Asilo en EE. UU.: Elegibilidad, Proceso y Sus Derechos",
+    "post4Excerpt": "Comprendiendo los procesos de asilo afirmativo y defensivo, incluyendo qué evidencia fortalece su solicitud.",
+    "post4Date": "22 de septiembre de 2024"
+  },
+  "cta": {
+    "title": "¿Listo para Dar el Siguiente Paso?",
+    "subtitle": "Su viaje migratorio comienza con una conversación. Programe su consulta hoy y permítanos ayudarle a navegar el camino hacia adelante.",
+    "button": "Obtenga su Revisión de Caso",
+    "phone": "O llámenos: (484) 640-8347",
+    "quiz": "¿No sabe por dónde empezar? Tome nuestro Cuestionario de Elegibilidad de Visa"
+  },
+  "about": {
+    "pageTitle": "Sobre el Abogado Omar Bachikh",
+    "pageSubtitle": "Su abogado de inmigración de confianza en Florida Central",
+    "badgeText": "Más de 15 Años Sirviendo a la Comunidad",
+    "heroHeadline": "Experimentado. Compasivo. Orientado a Resultados.",
+    "heroText": "Omar M. Bachikh es un abogado de inmigración dedicado con más de 15 años de experiencia ayudando a personas y familias a navegar las complejidades del derecho migratorio de EE. UU. Admitido en la Barra de Nueva York y miembro de AILA, ha construido una reputación de servicio personalizado, representación estratégica y genuina preocupación por cada cliente.",
+    "bio": {
+      "title": "Abogado Omar M. Bachikh, Esq., LLM",
+      "credential1": "LL.M., Widener University School of Law",
+      "credential2": "Admitido en la Barra de Nueva York",
+      "credential3": "Miembro de AILA",
+      "credential4": "Más de 15 Años de Práctica en Inmigración",
+      "p1": "Nacido con una profunda comprensión de la experiencia del inmigrante, el Abogado Bachikh aporta tanto experiencia legal como empatía personal a cada caso. Sus capacidades multilingües — inglés, árabe, francés y español — le permiten servir a una clientela diversa que abarca el mundo árabe, el Norte de África, comunidades francófonas e hispanas, y más.",
+      "p2": "Tras completar su LL.M. en Widener University School of Law, Omar dedicó su carrera exclusivamente al derecho migratorio, reconociendo el profundo impacto que tiene la representación legal en las vidas de las familias. Fundó el Bufete de Omar Bachikh, LLC para proporcionar servicios de inmigración de alta calidad y accesibles a clientes en los 50 estados y en consulados de EE. UU. en todo el mundo.",
+      "p3": "El Abogado Bachikh es conocido por su meticulosidad, su estilo de comunicación directa y su inquebrantable compromiso de lograr el mejor resultado posible para cada cliente. Maneja cada caso personalmente, asegurándose de que siempre tenga acceso al abogado que mejor conoce su caso.",
+      "philosophy": "\"El derecho de inmigración no se trata solo de papeleo — se trata de las vidas de las personas, sus familias y sus futuros. Cada cliente merece un abogado que luche por ellos tanto como lucharía por un miembro de su familia.\""
+    },
+    "credentials": {
+      "title": "Educación y Credenciales",
+      "education": "Educación",
+      "llm": "LL.M. — Widener University School of Law",
+      "jd": "Juris Doctor — Derecho",
+      "admissions": "Admisiones al Foro",
+      "florida": "Barra de Nueva York",
+      "memberships": "Membresías Profesionales",
+      "aila": "Asociación Americana de Abogados de Inmigración (AILA)",
+      "awards": "Premios y Reconocimientos",
+      "champion": "",
+      "languages": "Idiomas",
+      "english": "Inglés",
+      "arabic": "Árabe",
+      "french": "Francés",
+      "spanish": "Español"
+    },
+    "philosophy": {
+      "title": "Nuestra Filosofía",
+      "p1": "En el Bufete de Omar Bachikh, LLC, creemos que todo inmigrante merece una representación legal compasiva y de alta calidad, independientemente de su origen o la complejidad de su caso.",
+      "p2": "Nos tomamos el tiempo para entender la situación única, los temores y los objetivos de cada cliente. Explicamos cada paso del proceso claramente y mantenemos a los clientes informados durante todo el proceso. Luchamos con la misma dedicación por cada cliente, ya sea que busquen una visa de reunificación familiar o se defiendan contra la deportación.",
+      "p3": "Nuestra práctica multilingüe garantiza que las barreras idiomáticas nunca se interpongan entre un cliente y la ayuda legal que necesita. Estamos orgullosos de servir a las diversas comunidades inmigrantes de Florida Central y más allá."
+    },
+    "office": {
+      "title": "Visite Nuestra Oficina",
+      "address": "6000 Turkey Lake Rd. Suite 201",
+      "city": "Orlando, Florida 32819",
+      "phone": "(484) 640-8347",
+      "hours": "Horario de Oficina",
+      "monFri": "Lunes – Viernes: 9:00 AM – 5:00 PM",
+      "sat": "Cerrado los fines de semana"
+    }
+  },
+  "quiz": {
+    "title": "Cuestionario de Elegibilidad de Visa",
+    "subtitle": "Responda algunas preguntas para descubrir qué opciones de inmigración pueden ser adecuadas para usted.",
+    "startButton": "Iniciar el Cuestionario",
+    "nextButton": "Siguiente Pregunta",
+    "backButton": "Atrás",
+    "submitButton": "Obtener Mis Resultados",
+    "progressLabel": "Pregunta {current} de {total}",
+    "restartButton": "Comenzar de Nuevo",
+    "bookConsultation": "Reservar una Consulta",
+    "resultTitle": "Su Hoja de Ruta de Inmigración Personalizada",
+    "resultSubtitle": "Basado en sus respuestas, esto es lo que recomendamos:",
+    "urgentNotice": "Importante: Según su situación, el tiempo puede ser crítico. Por favor contáctenos de inmediato.",
+    "disclaimer": "Este cuestionario es solo para fines informativos y no constituye asesoramiento legal. Programe una consulta con el Abogado Bachikh para orientación personalizada.",
+    "q1": {
+      "question": "¿Qué lo trae aquí hoy?",
+      "a": "Quiero una tarjeta verde (residencia permanente)",
+      "b": "Quiero convertirme en ciudadano estadounidense",
+      "c": "Necesito una visa de trabajo",
+      "d": "Estoy buscando asilo o protección",
+      "e": "Estoy enfrentando una deportación o remoción",
+      "f": "Necesito una visa de estudiante",
+      "g": "Otro asunto de inmigración"
+    },
+    "q2_greencard": {
+      "question": "¿Tiene un familiar ciudadano estadounidense o residente permanente?",
+      "a": "Sí — cónyuge que es ciudadano estadounidense",
+      "b": "Sí — padre, hijo o hermano que es ciudadano estadounidense",
+      "c": "Sí — familiar que es residente permanente",
+      "d": "No — tengo una oferta de trabajo o patrocinador empleador",
+      "e": "No — ni familia ni empleador"
+    },
+    "q2_citizenship": {
+      "question": "¿Es actualmente residente permanente de EE. UU. (titular de tarjeta verde)?",
+      "a": "Sí — por 5 o más años",
+      "b": "Sí — por 3 años, casado con un ciudadano estadounidense",
+      "c": "Sí — por menos de 3 años",
+      "d": "No — aún no soy residente permanente"
+    },
+    "q2_work": {
+      "question": "¿Cuál describe mejor su situación laboral?",
+      "a": "Tengo un empleador en EE. UU. que quiere patrocinarme",
+      "b": "Tengo habilidad extraordinaria en mi campo (artes, deportes, ciencias, negocios)",
+      "c": "Me está transfiriendo mi empresa multinacional",
+      "d": "Soy un inversor o emprendedor de tratado",
+      "e": "Otra situación laboral"
+    },
+    "q2_asylum": {
+      "question": "¿Cuándo fue la última vez que ingresó a los Estados Unidos?",
+      "a": "Hace menos de 1 año",
+      "b": "Hace más de 1 año",
+      "c": "Aún no he entrado a EE. UU.",
+      "d": "Actualmente estoy fuera de EE. UU."
+    },
+    "q2_deportation": {
+      "question": "¿Cuál es su situación actual?",
+      "a": "He recibido un Aviso de Comparecencia (NTA) en el tribunal de inmigración",
+      "b": "Tengo una orden de remoción final",
+      "c": "Fui detenido por ICE",
+      "d": "Recibí una denegación o Aviso de Intención de Denegar",
+      "e": "Quiero apelar una decisión judicial"
+    },
+    "q3": {
+      "question": "¿Actualmente está dentro de los Estados Unidos?",
+      "a": "Sí — estoy en EE. UU. legalmente",
+      "b": "Sí — pero mi estatus ha expirado o es irregular",
+      "c": "No — estoy fuera de EE. UU.",
+      "d": "No — pero soy nacional de EE. UU. o de un país del programa de exención de visa"
+    },
+    "q4": {
+      "question": "¿Alguna vez ha tenido alguno de los siguientes?",
+      "a": "Una denegación de visa",
+      "b": "Una deportación o remoción previa",
+      "c": "Una condena criminal",
+      "d": "Una comparecencia previa ante un tribunal de inmigración",
+      "e": "Ninguno de los anteriores"
+    },
+    "q5": {
+      "question": "¿Cuál es su estatus migratorio actual en EE. UU.?",
+      "a": "Sin estatus actual (indocumentado)",
+      "b": "Visa válida (turista, estudiante, trabajo, etc.)",
+      "c": "Solicitud o caso pendiente",
+      "d": "Estado de Protección Temporal (TPS)",
+      "e": "Beneficiario de DACA",
+      "f": "Soy ciudadano estadounidense"
+    },
+    "results": {
+      "familyGreenCard": {
+        "title": "Tarjeta Verde Familiar",
+        "desc": "Según sus respuestas, puede ser elegible para una tarjeta verde familiar. El proceso generalmente implica una petición I-130, seguida de un ajuste de estatus (si está en EE. UU.) o procesamiento consular.",
+        "action": "Programe una consulta para comenzar su petición →"
+      },
+      "marriageGreenCard": {
+        "title": "Tarjeta Verde Conyugal / Visa Matrimonial",
+        "desc": "Como cónyuge de un ciudadano estadounidense, puede calificar para una tarjeta verde de familiar inmediato, uno de los caminos más rápidos hacia la residencia permanente.",
+        "action": "Inicie su proceso de tarjeta verde por matrimonio →"
+      },
+      "citizenship": {
+        "title": "Naturalización — Ciudadanía Estadounidense",
+        "desc": "Puede estar listo para solicitar la ciudadanía estadounidense. El proceso incluye el Formulario N-400, una cita de huellas dactilares, una prueba de inglés/cívica y una ceremonia de juramento.",
+        "action": "Comience su camino hacia la ciudadanía →"
+      },
+      "workVisa": {
+        "title": "Visa de Trabajo Basada en Empleo",
+        "desc": "Puede calificar para una visa de trabajo. El Abogado Bachikh evaluará sus calificaciones y recomendará el camino más sólido hacia adelante.",
+        "action": "Explore sus opciones de visa de trabajo →"
+      },
+      "asylum": {
+        "title": "Solicitud de Asilo",
+        "desc": "Si huye de la persecución, puede ser elegible para el asilo. Se aplican límites de tiempo: generalmente debe solicitar dentro de 1 año de llegar a EE. UU. No espere. Contáctenos hoy.",
+        "action": "Obtenga ayuda urgente para su caso de asilo →",
+        "urgent": true
+      },
+      "deportationDefense": {
+        "title": "Defensa contra la Deportación",
+        "desc": "Su situación requiere atención legal inmediata. El Abogado Bachikh tiene amplia experiencia representando clientes en procedimientos de deportación. Cuanto antes actuemos, más opciones estarán disponibles.",
+        "action": "Obtenga representación de emergencia ahora →",
+        "urgent": true
+      },
+      "studentVisa": {
+        "title": "Visa de Estudiante (F-1 / J-1)",
+        "desc": "Los estudiantes internacionales que cursan programas académicos en EE. UU. necesitan una visa F-1. Podemos ayudarle con el proceso de solicitud, el mantenimiento del estatus, OPT y otros asuntos de visa de estudiante.",
+        "action": "Obtenga ayuda con su visa de estudiante →"
+      },
+      "general": {
+        "title": "Hablemos de Sus Opciones",
+        "desc": "Su situación puede involucrar múltiples vías o requerir un análisis detallado del caso. El Abogado Bachikh ofrece consultas para revisar sus circunstancias específicas e identificar la mejor estrategia.",
+        "action": "Programe una consulta →"
+      }
+    }
+  },
+  "consultation": {
+    "pageTitle": "Programar una Consulta",
+    "pageSubtitle": "Dé el primer paso para resolver su asunto de inmigración",
+    "formTitle": "Solicitar una Evaluación de Caso",
+    "name": "Nombre Completo",
+    "email": "Dirección de Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "country": "País de Origen",
+    "status": "Estatus Migratorio Actual",
+    "statusOptions": {
+      "undocumented": "Sin estatus actual",
+      "visa": "Visa válida",
+      "lpr": "Residente Permanente",
+      "citizen": "Ciudadano Estadounidense",
+      "pending": "Solicitud pendiente",
+      "other": "Otro"
+    },
+    "service": "¿En qué necesita ayuda?",
+    "message": "Describa brevemente su situación",
+    "language": "Idioma Preferido",
+    "submit": "Reservar una Consulta",
+    "submitting": "Enviando...",
+    "successTitle": "¡Solicitud Recibida!",
+    "successMsg": "Gracias. Nos comunicaremos con usted dentro de las 24 horas para confirmar el horario de su consulta.",
+    "infoTitle": "Qué Esperar",
+    "info1": "Consulta con el Abogado Bachikh (se aplica tarifa)",
+    "info2": "Confidencialidad total — todas las comunicaciones están protegidas",
+    "info3": "Disponible en inglés, árabe, francés o español",
+    "info4": "Honorarios transparentes — todos los costos se discuten por adelantado",
+    "urgentTitle": "¿Necesita Ayuda Inmediata?",
+    "urgentText": "Si está en procedimientos de deportación o enfrenta una emergencia migratoria urgente, por favor llámenos directamente.",
+    "urgentCall": "Llamar al (484) 640-8347"
+  },
+  "contact": {
+    "pageTitle": "Contáctenos",
+    "pageSubtitle": "Estamos aquí para ayudar. Comuníquese con nuestra oficina hoy.",
+    "address": "Dirección",
+    "addressValue": "6000 Turkey Lake Rd. Suite 201, Orlando, Florida 32819",
+    "phone": "Teléfono",
+    "phoneValue": "(484) 640-8347",
+    "email": "Correo Electrónico",
+    "emailValue": "obachikh@bachikhlaw.com",
+    "hours": "Horario de Oficina",
+    "monFri": "Lunes – Viernes: 9:00 AM – 5:00 PM",
+    "sat": "Cerrado los fines de semana",
+    "social": "Síguenos",
+    "formTitle": "Envíenos un Mensaje",
+    "name": "Su Nombre",
+    "emailLabel": "Su Correo Electrónico",
+    "subject": "Asunto",
+    "message": "Su Mensaje",
+    "send": "Enviar Mensaje",
+    "mapTitle": "Encuentre Nuestra Oficina"
+  },
+  "faq": {
+    "pageTitle": "Preguntas Frecuentes",
+    "pageSubtitle": "Respuestas a las preguntas de inmigración más comunes",
+    "categories": {
+      "general": "General",
+      "greenCard": "Tarjetas Verdes",
+      "citizenship": "Ciudadanía",
+      "asylum": "Asilo",
+      "deportation": "Deportación",
+      "fees": "Honorarios y Proceso"
+    },
+    "q1": "¿Cuánto tiempo tarda el proceso de inmigración?",
+    "a1": "Los tiempos de procesamiento varían mucho según el tipo de caso, los retrasos en el USCIS y las circunstancias individuales. Los casos familiares para familiares inmediatos pueden tardar 1-2 años; otras categorías pueden tardar 3-10+ años. Le daremos plazos realistas durante su consulta.",
+    "q2": "¿Cuánto cuesta la ayuda legal de inmigración?",
+    "a2": "Nuestros honorarios varían según el tipo y la complejidad del caso. Ofrecemos estructuras de honorarios transparentes y planes de pago. Todos los honorarios se discuten por adelantado durante su consulta inicial. No hay cargos ocultos.",
+    "q3": "¿Puedo solicitar una tarjeta verde si ingresé ilegalmente a EE. UU.?",
+    "a3": "Depende de varios factores, incluyendo si tiene un familiar calificado, cuánto tiempo ha estado en EE. UU. y si aplican barreras al ajuste. Algunas personas califican para exenciones. Este es exactamente el tipo de situación que analizamos en nuestras consultas.",
+    "q4": "¿Cuál es la diferencia entre una tarjeta verde y la ciudadanía?",
+    "a4": "Una tarjeta verde le otorga residencia permanente en EE. UU. La ciudadanía, obtenida a través de la naturalización, le otorga todos los derechos de un ciudadano estadounidense, incluyendo el derecho a votar y un pasaporte estadounidense.",
+    "q5": "¿Necesito un abogado para mi caso de inmigración?",
+    "a5": "Si bien la ley de inmigración no requiere técnicamente que tenga un abogado, contar con representación legal profesional mejora dramáticamente sus posibilidades de éxito. Los errores en los formularios de inmigración pueden resultar en demoras, denegaciones o incluso barreras para futuras solicitudes.",
+    "q6": "¿Qué sucede si se deniega mi petición de visa?",
+    "a6": "Una denegación no es el fin. Dependiendo del tipo de denegación, podemos presentar una moción para reabrir o reconsiderar, apelar ante la Junta de Apelaciones de Inmigración (BIA) o explorar vías alternativas.",
+    "q7": "¿Puedo trabajar en EE. UU. mientras mi solicitud de tarjeta verde está pendiente?",
+    "a7": "Si tiene un I-485 pendiente (Ajuste de Estatus), puede solicitar un Documento de Autorización de Empleo (EAD), que le permite trabajar legalmente mientras se procesa su tarjeta verde.",
+    "q8": "¿Qué es DACA y quién califica?",
+    "a8": "DACA es un programa que protege de la deportación a ciertos inmigrantes indocumentados que llegaron a EE. UU. de niños y proporciona autorización de trabajo. Los requisitos incluyen haber llegado a EE. UU. antes de los 16 años y residencia continua desde el 15 de junio de 2007.",
+    "q9": "¿Cómo califico para el asilo?",
+    "a9": "Para calificar para el asilo, debe demostrar que ha sufrido persecución o tiene un temor fundado de persecución en su país de origen basado en raza, religión, nacionalidad, opinión política o pertenencia a un grupo social particular. Generalmente debe solicitar dentro de 1 año de llegada.",
+    "q10": "¿En qué idiomas atiende su oficina?",
+    "a10": "Nuestra oficina atiende clientes en inglés, árabe, francés y español. El Abogado Bachikh es fluido en los cuatro idiomas, asegurando que pueda comunicarse plenamente sobre su caso sin barreras idiomáticas."
+  },
+  "fees": {
+    "pageTitle": "Honorarios y Proceso de Inmigración",
+    "pageSubtitle": "Precios transparentes y una hoja de ruta clara para su caso",
+    "transparencyTitle": "Nuestro Compromiso con la Transparencia",
+    "transparencyText": "Creemos que merece saber cuánto costará su caso y qué esperar. Nuestras estructuras de honorarios son claras y discutimos todos los costos durante su consulta inicial.",
+    "processTitle": "Su Viaje de Inmigración",
+    "processSubtitle": "Una descripción paso a paso de cómo manejamos su caso",
+    "step1Title": "Consulta Inicial",
+    "step1Desc": "Revisamos su situación, explicamos sus opciones y delineamos una estrategia. Se aplica tarifa de consulta.",
+    "step2Title": "Acuerdo de Representación",
+    "step2Desc": "Revisamos y firmamos el acuerdo de representación. Todos los honorarios se revelan por adelantado.",
+    "step3Title": "Recopilación de Documentos",
+    "step3Desc": "Proporcionamos una lista personalizada de documentos requeridos. Nuestro equipo le asiste en todo momento.",
+    "step4Title": "Presentación",
+    "step4Desc": "Preparamos y presentamos todos los formularios requeridos y documentación de apoyo ante el USCIS o el tribunal de inmigración.",
+    "step5Title": "Seguimiento del Caso",
+    "step5Desc": "Rastreamos su caso, respondemos a cualquier Solicitud de Evidencia (RFE) y lo mantenemos informado.",
+    "step6Title": "Preparación para la Entrevista",
+    "step6Desc": "Para los casos que requieren una entrevista, lo preparamos minuciosamente para lo que puede esperar.",
+    "step7Title": "Resolución",
+    "step7Desc": "Trabajamos diligentemente para lograr el mejor resultado posible y celebramos su éxito con usted.",
+    "feeTitle": "Descripción General de Honorarios",
+    "feeNote": "Los honorarios reales se determinan durante su consulta inicial según su caso específico. Los siguientes son rangos generales de referencia.",
+    "feeDisclaimer": "Las tarifas gubernamentales de presentación (tarifas del USCIS) son separadas de los honorarios del abogado y son establecidas por el USCIS.",
+    "paymentTitle": "Opciones de Pago",
+    "payment1": "Planes de pago disponibles",
+    "payment2": "Se aceptan las principales tarjetas de crédito",
+    "payment3": "Estructura de honorarios explicada por adelantado"
+  },
+  "resources": {
+    "pageTitle": "Recursos de Inmigración",
+    "pageSubtitle": "Guías, listas de verificación, glosario y enlaces para ayudarle a navegar el sistema",
+    "guidesTitle": "Guías Descargables Gratuitas",
+    "guide1Title": "La Guía Completa de Tarjeta Verde",
+    "guide1Desc": "Todo lo que necesita saber sobre obtener la residencia permanente en EE. UU.",
+    "guide2Title": "Lista de Verificación de Naturalización",
+    "guide2Desc": "Lista de verificación paso a paso para preparar su solicitud de ciudadanía.",
+    "guide3Title": "Conozca Sus Derechos en el Tribunal de Inmigración",
+    "guide3Desc": "Conozca sus derechos si recibe un Aviso de Comparecencia.",
+    "guide4Title": "Guía de Renovación de DACA 2024",
+    "guide4Desc": "Instrucciones actuales y plazos para las solicitudes de renovación de DACA.",
+    "glossaryTitle": "Glosario de Inmigración",
+    "linksTitle": "Recursos Oficiales del Gobierno",
+    "link1": "USCIS — Servicios de Ciudadanía e Inmigración de EE. UU.",
+    "link2": "Departamento de Estado — Información sobre Visas",
+    "link3": "EOIR — Oficina Ejecutiva de Revisión de Inmigración",
+    "link4": "ICE — Inmigración y Control de Aduanas",
+    "download": "Descargar PDF",
+    "faqLink": "Ver Preguntas Frecuentes Completas"
+  },
+  "results": {
+    "pageTitle": "Resultados de Casos e Historias de Éxito",
+    "pageSubtitle": "Resultados reales para personas reales — una muestra de los casos que hemos resuelto",
+    "disclaimer": "Nota: Cada caso es único. Los resultados anteriores no garantizan un resultado similar en su caso.",
+    "filter": "Filtrar por:",
+    "all": "Todos los Casos",
+    "r1Title": "Reunificación Familiar — Tarjeta Verde Aprobada",
+    "r1Desc": "Cliente de Marruecos se reunió con su esposo ciudadano estadounidense después de 2 años de separación. Caso complejo de procesamiento consular con denegación de visa previa resuelto con éxito.",
+    "r2Title": "Procedimientos de Deportación — Caso Terminado",
+    "r2Desc": "Cliente que enfrentaba deportación tras una visa vencida pudo ajustar su estatus a través de una petición familiar. Caso de deportación terminado.",
+    "r3Title": "Asilo Concedido — Persecución Política",
+    "r3Desc": "Cliente de Egipto que temía persecución política fue beneficiado con asilo después de una presentación exhaustiva de evidencia sobre las condiciones del país.",
+    "r4Title": "Naturalización Aprobada — Historial Criminal Complejo",
+    "r4Desc": "Cliente con un historial criminal menor de décadas atrás se naturalizó con éxito después de una cuidadosa preparación y solicitud de exención.",
+    "r5Title": "Exención Aprobada — Barra de Presencia Ilegal",
+    "r5Desc": "Cliente sujeto a una barra de 10 años por presencia ilegal obtuvo una exención I-601A aprobada, permitiendo que su visa conyugal procediera a través del procesamiento consular.",
+    "r6Title": "Petición VAWA Aprobada — Sobreviviente de Violencia Doméstica",
+    "r6Desc": "Sobreviviente de violencia doméstica presentó una autopetición VAWA. Caso aprobado, otorgando al cliente un camino hacia la residencia permanente independiente de su cónyuge abusivo."
+  },
+  "privacy": {
+    "pageTitle": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 1 de enero de 2024"
+  },
+  "terms": {
+    "pageTitle": "Términos de Servicio",
+    "lastUpdated": "Última actualización: 1 de enero de 2024"
+  },
+  "footer": {
+    "tagline": "Protegiendo familias y futuros a través de una representación de inmigración compasiva y experta.",
+    "disclaimer": "Publicidad de abogados. La información en este sitio web es solo para fines informativos generales y no constituye asesoramiento legal. Ver este sitio web no crea una relación abogado-cliente.",
+    "practiceAreas": "Áreas de Práctica",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "allRights": "Todos los derechos reservados.",
+    "barAdmission": "Admitido en NY",
+    "aila": "Miembro AILA"
+  },
+  "cookie": {
+    "message": "Utilizamos cookies para mejorar su experiencia de navegación y analizar el tráfico del sitio. Al continuar usando este sitio, acepta nuestro uso de cookies.",
+    "accept": "Aceptar Todo",
+    "decline": "Rechazar",
+    "learnMore": "Política de Privacidad"
+  },
+  "community": {
+    "badge": "Defensa y Comunidad",
+    "title": "Luchando por los Inmigrantes en Todos los Niveles",
+    "subtitle": "Desde las oficinas de campo del USCIS hasta los pasillos del Congreso, Omar Bachikh aboga por sus clientes y la comunidad inmigrante en general.",
+    "advocacyLabel": "Gobierno y Defensa",
+    "successLabel": "Victorias de Clientes"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal. Por favor inténtelo de nuevo.",
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Por favor ingrese un correo electrónico válido",
+    "close": "Cerrar",
+    "openMenu": "Abrir menú",
+    "backToTop": "Volver arriba",
+    "shareOn": "Compartir en",
+    "categories": "Categorías",
+    "tags": "Etiquetas",
+    "author": "Autor",
+    "date": "Fecha",
+    "minuteRead": "min de lectura",
+    "viewAll": "Ver Todo",
+    "learnMore": "Más Información",
+    "getStarted": "Comenzar",
+    "scheduleConsultation": "Programar una Consulta"
+  }
+}
